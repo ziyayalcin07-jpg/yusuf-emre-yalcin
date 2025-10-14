@@ -20,7 +20,7 @@ Ayrıca, müzik eğitimi alanında da aktif bir sanatçı olan Yalçın, kabak k
 
 🔗 Kaynaklar
 
-youtube.com/channel/UC2dDayU6wKHActK0JuR3GAg?sub_confirmation=
+youtube.com/channel/UC2dDayU6wKHActK0JuR3GAg?sub_confirmation
 
 https://soundcloud.com/yusuf-emre-yal-n?utm_source=chatgpt.com
 
