@@ -20,10 +20,10 @@ Ayrıca, müzik eğitimi alanında da aktif bir sanatçı olan Yalçın, kabak k
 
 🔗 Kaynaklar
 
-YouTube Kanalı
+youtube.com/channel/UC2dDayU6wKHActK0JuR3GAg?sub_confirmation=
 
-SoundCloud Profili
+https://soundcloud.com/yusuf-emre-yal-n?utm_source=chatgpt.com
 
-Instagram Hesabı
+https://www.instagram.com/yusufemreyalcinn/?hl=en&utm_source=chatgpt.com
 
-LinkedIn Profili
+https://tr.linkedin.com/posts/ziya-yal%C3%A7%C4%B1n-475ba7111_yusuf-emre-yal%C3%A7in-2005-y%C4%B1l%C4%B1nda-antalyada-activity-7177751286249889792-2iYD
