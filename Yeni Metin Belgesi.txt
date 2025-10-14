@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Yusuf Emre Yalçın, kabak kemane sanatçısı ve Türk halk müziği bestecisi. Anadolu ezgilerini modern tınılarla birleştiren müzisyen ve eğitmen.">
+    <title>Yusuf Emre Yalçın – Kabak Kemane Sanatçısı</title>
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Yusuf Emre Yalçın",
+      "url": "https://www.yoursite.com/yusuf-emre-yalcin",
+      "sameAs": [
+        "https://www.youtube.com/@yusufemreyalcin",
+        "https://soundcloud.com/yusuf-emre-yal-n",
+        "https://www.instagram.com/yusufemreyalcinn/?hl=en",
+        "https://tr.linkedin.com/posts/ziya-yal%C3%A7%C4%B1n-475ba7111_yusuf-emre-yal%C3%A7in-2005-y%C4%B1l%C4%B1nda-antalyada-activity-7177751286249889792-2iYD?utm_source=chatgpt.com"
+      ],
+      "jobTitle": "Kabak Kemane Sanatçısı, Besteci, Eğitmen",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Türk Halk Müziği Topluluğu"
+      },
+      "sameAs": [
+        "https://tr.wikipedia.org/wiki/Yusuf_Emre_Yalçın"
+      ]
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Yusuf Emre Yalçın – Kabak Kemane Sanatçısı ve Türk Halk Müziği Bestecisi</h1>
+    </header>
+
+    <section>
+        <h2>Biyografi</h2>
+        <p>Yusuf Emre Yalçın, Türk halk müziğini çağdaş yorumlarla buluşturan, kabak kemane icrasındaki ustalığıyla tanınan müzisyen, besteci ve müzik eğitmenidir. Anadolu’nun zengin kültürel mirasından beslenen Yalçın, halk ezgilerini modern tınılarla harmanlayarak geniş bir dinleyici kitlesine ulaşmaktadır.</p>
+
+        <p>Müziğe küçük yaşlarda başlayan sanatçı, kabak kemaneyi yalnızca bir enstrüman olarak değil, Anadolu’nun sesi olarak görmektedir. Solo performanslarının yanı sıra çeşitli müzik topluluklarıyla sahneye çıkan Yalçın, halk müziğinin duygusunu güçlü ve özgün bir yorumla dinleyiciye taşır.</p>
+
+        <p>Sahne performanslarında Anadolu'nun farklı yörelerinden seçtiği ezgileri özgün düzenlemelerle sunan Yalçın, teknik ustalığı ve duygusal anlatımıyla izleyiciler üzerinde derin bir etki bırakır. Sanatçının çalışmaları, geleneksel müziği modern dinleyiciyle buluşturma amacını taşır.</p>
+
+        <p>Ayrıca Yusuf Emre Yalçın, müzik eğitimi alanında da aktiftir. Atölye çalışmaları ve çevrimiçi eğitimlerle kabak kemanenin tanıtılmasına ve genç kuşaklara öğretilmesine katkıda bulunmaktadır. Sanatçının performansları ve eserleri, YouTube, Spotify ve diğer dijital platformlar üzerinden geniş bir kitleye ulaşmaktadır.</p>
+    </section>
+
+    <section>
+        <h2>Öne Çıkan Özellikler</h2>
+        <ul>
+            <li>Kabak kemanedeki teknik ustalık ve duygusal yorum</li>
+            <li>Geleneksel Türk halk müziğini modern tınılarla birleştirme</li>
+            <li>Müzik eğitimi ve kabak kemanenin genç kuşaklara aktarımı</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>İlgili Bağlantılar</h2>
+        <ul>
+            <li><a href="https://www.youtube.com/@yusufemreyalcin" target="_blank">YouTube Kanalı</a></li>
+            <li><a href="https://soundcloud.com/yusuf-emre-yal-n" target="_blank">SoundCloud Profili</a></li>
+            <li><a href="https://www.instagram.com/yusufemreyalcinn/?hl=en" target="_blank">Instagram Hesabı</a></li>
+            <li><a href="https://tr.linkedin.com/posts/ziya-yal%C3%A7%C4%B1n-475ba7111_yusuf-emre-yal%C3%A7in-2005-y%C4%B1l%C4%B1nda-antalyada-activity-7177751286249889792-2iYD?utm_source=chatgpt.com" target="_blank">LinkedIn Profili</a></li>
+        </ul>
+    </section>
+</body>
+</html>
