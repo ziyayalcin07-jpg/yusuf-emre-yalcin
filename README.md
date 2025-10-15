@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="tr">
 <head>
@@ -60,6 +61,9 @@
       font-size: 0.9rem;
       color: #777;
     }
+    img {
+      max-width: 100%;
+    }
   </style>
 </head>
 
@@ -81,6 +85,14 @@
       </p>
     </section>
 
+    <section id="profil">
+      <h2>Profil Fotoğrafı</h2>
+      <div style="text-align:center;">
+        <img src="https://i.ibb.co/XYZ/profile.jpg" alt="Yusuf Emre Yalçın" 
+             style="width:200px; height:200px; border-radius:50%; object-fit:cover; border:3px solid #8c52ff;">
+      </div>
+    </section>
+
     <section id="muzikal-yolculuk">
       <h2>Müzikal Yolculuğu</h2>
       <ul>
@@ -96,9 +108,21 @@
       </p>
     </section>
 
+    <section id="video">
+      <h2>Öne Çıkan Performans</h2>
+      <div style="text-align:center;">
+        <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/ZMTbIRPI8S4" 
+                title="Yusuf Emre Yalçın - Kabak Kemane Performansı" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen style="border-radius:12px;">
+        </iframe>
+      </div>
+    </section>
+
     <section id="sosyal-medya">
       <h2>Sosyal Medya ve Bağlantılar</h2>
-      <p>🎥 <a href="https://www.youtube.com/@yusufemreyalciin" target="_blank">YouTube</a></p>
+      <p>🎥 <a href="https://www.youtube.com/@yusufemreyalcin" target="_blank">YouTube</a></p>
       <p>📸 <a href="https://www.instagram.com/yusufemreyalciin/" target="_blank">Instagram</a></p>
       <p>🎵 <a href="https://www.tiktok.com/@yusufemreyalciin" target="_blank">TikTok</a></p>
     </section>
