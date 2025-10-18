@@ -353,3 +353,20 @@
 
 </body>
 </html>
+<title>Yusuf Emre Yalçın | Kabak Kemane Sanatçısı</title>
+<meta name="description" content="Yusuf Emre Yalçın - Kabak kemane sanatçısı, besteci ve müzik eğitmeni. Geleneksel Türk müziğini genç nesillere tanıtıyor.">
+<meta name="keywords" content="kabak kemane, Yusuf Emre Yalçın, Türk halk müziği, geleneksel müzik, halk sanatçısı">
+<img src="kemane.jpg" alt="Yusuf Emre Yalçın kabak kemane çalarken">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Musician",
+  "name": "Yusuf Emre Yalçın",
+  "description": "Kabak kemane sanatçısı, besteci ve müzik eğitmeni.",
+  "url": "https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/",
+  "sameAs": [
+    "https://instagram.com/xxx",
+    "https://youtube.com/xxx"
+  ]
+}
+</script>
