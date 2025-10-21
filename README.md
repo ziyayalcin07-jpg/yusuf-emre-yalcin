@@ -176,55 +176,6 @@
     </div>
   </header>
 
-  <footer>
-    © 2025 Yusuf Emre Yalçın | Tüm Hakları Saklıdır | Tasarım: Ziya Yalçın
-  </footer>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="tr">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Yusuf Emre Yalçın, kabak kemanenin özgün sesiyle Türk müziğini modern bir yorumla buluşturan sanatçıdır.">
-  <title>🎻 Yusuf Emre Yalçın</title>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
-    body { font-family:"Poppins",sans-serif; margin:0; background:linear-gradient(135deg,#070607,#21130b); color:#eee; }
-    header{ text-align:center; padding:60px 20px 20px; }
-    .card{ background:rgba(10,10,10,0.95); max-width:920px; margin:0 auto; border-radius:18px; overflow:hidden; box-shadow:0 8px 40px rgba(0,0,0,0.6); }
-    .cover{ height:220px; background:linear-gradient(180deg, rgba(68,42,25,0.9), rgba(0,0,0,0.9)); }
-    .profile-wrap{ position:relative; }
-    .profile-img{ width:190px;height:190px;border-radius:50%;object-fit:cover;margin-top:-95px;border:6px solid rgba(10,10,10,0.7); display:block;margin-left:auto;margin-right:auto; box-shadow:0 8px 30px rgba(255,180,80,0.12); }
-    .content{ padding:28px 36px; text-align:center; }
-    h1{ font-size:32px; color:#ffd29a; margin:6px 0; }
-    p.role{ color:#d9c9b0; margin-bottom:18px; }
-    section{ text-align:left; margin-top:22px; color:#e7dfd0; }
-    h2{ color:#ffb74d; border-left:4px solid #ff9800; padding-left:10px; }
-    .video-section iframe{ width:100%; max-width:780px; height:440px; border-radius:12px; border:none; box-shadow:0 6px 30px rgba(0,0,0,0.6); }
-    footer{ text-align:center; padding:26px; color:#a99f92; font-size:13px; }
-    @media (max-width:680px){ .profile-img{ width:140px;height:140px;margin-top:-70px; } .video-section iframe{ height:240px; } }
-  </style>
-</head>
-<body>
-  <header>
-    <div class="card">
-      <div class="cover"></div>
-
-      <!-- A) Eğer Base64 gömmemi istiyorsan burayı data URI ile değiştiririm:
-           <img src="data:image/jpeg;base64,..." class="profile-img" alt="...">
-           B) Ya da resim dosyan varsa şu şekilde kullan:
-           <img src="images/yusufemreyalcin.jpg" class="profile-img" alt="...">
-           C) Ya da URL kullan:
-           <img src="https://domain.com/path/yusuf.jpg" class="profile-img" alt="...">
-      -->
-      <div class="profile-wrap">
-        <img src="images/yusufemreyalcin.jpg" alt="Yusuf Emre Yalçın Profil" class="profile-img">
-      </div>
-
-      <div class="content">
-        <h1>Yusuf Emre Yalçın</h1>
-        <p class="role">🎻 Kabak Kemane Sanatçısı • Besteci • Eğitmen</p>
 
         <section id="hakkinda">
           <h2>Yusuf Emre Yalçın Kimdir?</h2>
