@@ -123,7 +123,23 @@
     }
   </style>
 </head>
-
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Yusuf Emre Yalçın",
+  "jobTitle": "Kabak Kemane Sanatçısı",
+  "description": "Yusuf Emre Yalçın, kabak kemanenin genç sesi olarak Türk halk müziğini modern yorumlarla buluşturan sanatçıdır.",
+  "url": "https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/",
+  "image": "https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/images/profil.jpg",
+  "sameAs": [
+    "https://youtube.com/@yusufemreyalcin",
+    "https://www.instagram.com/yusufemreyalciin"
+  ],
+  "nationality": "Türk",
+  "genre": "Türk Halk Müziği"
+}
+</script>
 <body>
   <header>
     <div class="card">
