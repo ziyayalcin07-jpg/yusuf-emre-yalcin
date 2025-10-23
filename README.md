@@ -191,4 +191,29 @@
     </div>
   </header>
 
-      
+ <!-- Temel Sayfa Başlığı -->
+<title>Yusuf Emre Yalçın | Kabak Kemane Sanatçısı · Türk Halk Müziği</title>
+
+<!-- Açıklama (Google meta açıklaması) -->
+<meta name="description" content="Yusuf Emre Yalçın, kabak kemanenin genç sesi. Türk halk müziğini modern yorumlarla buluşturan sanatçı; sahne performansları, besteleri ve çevrim içi kabak kemane eğitimleriyle tanınıyor.">
+
+<!-- Anahtar Kelimeler -->
+<meta name="keywords" content="Yusuf Emre Yalçın, kabak kemane, kabak kemane sanatçısı, Türk halk müziği, genç sanatçılar, Anadolu müziği, modern halk müziği, kabak kemane eğitimi, online kemane dersi, halk müziği sanatçısı, geleneksel müzik, Yusuf Emre Yalçın biyografi">
+
+<!-- Arama Motoru Ayarları -->
+<meta name="robots" content="index, follow">
+<meta name="author" content="Yusuf Emre Yalçın">
+<meta name="language" content="tr">
+
+<!-- Sosyal Medya Paylaşım Kartları (Open Graph / Facebook) -->
+<meta property="og:title" content="Yusuf Emre Yalçın | Kabak Kemane Sanatçısı">
+<meta property="og:description" content="Kabak kemanenin genç sesi Yusuf Emre Yalçın, geleneksel Türk müziğini modern yorumlarla birleştiriyor.">
+<meta property="og:image" content="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/images/profil.jpg">
+<meta property="og:url" content="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/">
+<meta property="og:type" content="website">
+
+<!-- Twitter Kartları (isteğe bağlı) -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Yusuf Emre Yalçın | Kabak Kemane Sanatçısı">
+<meta name="twitter:description" content="Türk halk müziğinin genç kabak kemane sanatçısı Yusuf Emre Yalçın'dan geleneksel tınılarla modern yorumlar.">
+<meta name="twitter:image" content="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/images/profil.jpg">     
