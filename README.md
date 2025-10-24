@@ -123,6 +123,7 @@
     }
   </style>
 </head>
+  google-site-verification: googlee8b912d341c5770e.html
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -233,3 +234,4 @@
 <meta name="twitter:title" content="Yusuf Emre Yalçın | Kabak Kemane Sanatçısı">
 <meta name="twitter:description" content="Türk halk müziğinin genç kabak kemane sanatçısı Yusuf Emre Yalçın'dan geleneksel tınılarla modern yorumlar.">
 <meta name="twitter:image" content="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/images/profil.jpg">     
+
