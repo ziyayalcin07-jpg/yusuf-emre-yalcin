@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M71E41PBWZ">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M71E41PBWZ');
+</script>
   <meta name="title" content="Yusuf Emre Yalçın - Kabak Kemane Sanatçısı">
 <meta name="description" content="Yusuf Emre Yalçın, Antalya doğumlu kabak kemane sanatçısıdır. Türk halk müziğini genç kuşağa aktaran ve sosyal medyada geniş kitleye ulaşan bir müzisyendir.">
 <meta name="keywords" content="Yusuf Emre Yalçın, kabak kemane, Türk halk müziği, Antalya, genç sanatçı">
