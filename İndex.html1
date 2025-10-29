@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Yusuf Emre Yalçın, genç kabak kemane sanatçısı. Müzik kariyeri, konserleri ve eserleri hakkında bilgi edinin." />
+  <meta name="keywords" content="Yusuf Emre Yalçın, kabak kemane, Türk müziği, sanatçı, müzisyen" />
+  <meta name="author" content="Yusuf Emre Yalçın" />
+  <title>Yusuf Emre Yalçın | Kabak Kemane Sanatçısı</title>
+
+  <!-- ✅ Google Ads etiketi (buradaki AW-XXXXXX kısmını kendi numaranla değiştir) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M71E41PBWZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-M71E41PBWZ');
+  </script>
+
+  <!-- ✅ Google site doğrulama etiketi (isteğe bağlı olarak eklenebilir) -->
+  <!-- <meta name="google-site-verification" content="BURAYA-DOĞRULAMA-KODUNU-YAZ" /> -->
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fafafa;
+      color: #222;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background-color: #222;
+      color: #fff;
+      padding: 20px;
+    }
+    img.profile {
+      width: 200px;
+      height: 200px;
+      border-radius: 100px;
+      margin-top: 20px;
+    }
+    main {
+      padding: 20px;
+    }
+    footer {
+      background-color: #222;
+      color: #ccc;
+      padding: 15px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Yusuf Emre Yalçın</h1>
+    <p>Kabak Kemane Sanatçısı</p>
+  </header>
+
+  <main>
+    <img src="profil-foto.jpg" alt="Yusuf Emre Yalçın" class="profile" />
+    <h2>Hakkında</h2>
+    <p>
+      Yusuf Emre Yalçın, genç yaşına rağmen kabak kemane alanında dikkat çeken bir sanatçıdır.
+      Türk müziğine kattığı özgün yorumlarla tanınmaktadır.
+    </p>
+
+    <h2>İletişim</h2>
+    <p>
+      YouTube: <a href="https://youtube.com/@yusufemreyalcin" target="_blank">@yusufemreyalcin</a><br>
+      Instagram: <a href="https://www.instagram.com/yusufemreyalciin" target="_blank">@yusufemreyalciin</a>
+    </p>
+  </main>
+
+  <footer>
+    © 2025 Yusuf Emre Yalçın. Tüm hakları saklıdır.
+  </footer>
+</body>
+</html>
