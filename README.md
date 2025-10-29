@@ -1,3 +1,6 @@
+<section id="kapak">
+  <img src="yusuf-emre-yalcin-kapak.jpg" alt="Yusuf Emre Yalçın - Kabak Kemanenin Genç Sesi" style="max-width:100%; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.2);">
+</section>
 <!DOCTYPE html>
 <html lang="tr">
   <!-- Google tag (gtag.js) -->
