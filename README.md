@@ -169,6 +169,7 @@
 }
 </script>
 <body>
+  <img src="yusuf-emre-yalcin-banner.png" alt="Yusuf Emre Yalçın - Kabak Kemane Sanatçısı" style="width:100%; max-width:1920px; border-radius:12px;">
   <header>
     <div class="card">
       <div class="cover"></div>
