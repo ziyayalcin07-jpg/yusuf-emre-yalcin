@@ -473,3 +473,213 @@
 <meta name="twitter:description" content="Türk halk müziğinin genç kabak kemane sanatçısı Yusuf Emre Yalçın'dan geleneksel tınılarla modern yorumlar.">
 <meta name="twitter:image" content="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/images/profil.jpg">     
 
+<!-- ====== BİYOGRAFİ (Koyu Gri & Bordo | Playfair + Poppins) ====== -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<section id="biyografi" class="bio-dark">
+  <div class="bio-container">
+    <header class="bio-header">
+      <h2>Yusuf Emre Yalçın – Zenginleştirilmiş SEO Odaklı Biyografi</h2>
+      <span aria-hidden="true" class="bio-accent-bar"></span>
+    </header>
+
+    <article class="bio-card">
+      <h3>
+        <svg class="bio-ico" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 3c-4.97 0-9 3.58-9 8 0 2.53 1.36 4.78 3.5 6.22V21l3.2-1.92c.75.2 1.54.3 2.3.3 4.97 0 9-3.58 9-8s-4.03-8-9-8z" fill="currentColor"/></svg>
+        Yusuf Emre Yalçın Kimdir?
+      </h3>
+      <p><strong>Yusuf Emre Yalçın</strong>, 2015 yılında Antalya’da doğan genç bir <strong>kabak kemane sanatçısı</strong>dır. Kabak kemaneye getirdiği özgün yorum, sahne enerjisi ve güçlü müzikalik ile dikkat çeken sanatçı; profesyonel müzik eğitimiyle birlikte kısa sürede kabak kemane icrasında öne çıkan isimlerden biri olmuştur.</p>
+    </article>
+
+    <article class="bio-card">
+      <h3>
+        <svg class="bio-ico" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 3l2.09 6.26H21l-5.17 3.76L17.91 21 12 16.9 6.09 21l2.08-7.98L3 9.26h6.91z" fill="currentColor"/></svg>
+        Müzik Tarzı ve Sanatsal Kimliği
+      </h3>
+      <p>Yusuf Emre Yalçın’ın müzik tarzı;</p>
+      <ul class="bio-list">
+        <li><strong>Türk halk müziği</strong></li>
+        <li><strong>Klasik Türk müziği</strong></li>
+        <li>Modern müzikal dokunuşlar</li>
+      </ul>
+      <p>üzerine kuruludur. Hüseyni, nihavent, hicaz gibi makamlardaki icralarıyla duyguyu ön planda tutarken; sahnede sergilediği enerjik performanslarıyla izleyiciyle güçlü bir bağ kurmaktadır.</p>
+    </article>
+
+    <article class="bio-card">
+      <h3>
+        <svg class="bio-ico" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 6h16v2H4zm0 5h10v2H4zm0 5h13v2H4z" fill="currentColor"/></svg>
+        Sahne Deneyimi ve Performansları
+      </h3>
+      <p>Genç yaşına rağmen çeşitli kültür-sanat etkinliklerinde yer alan <strong>Yusuf Emre Yalçın</strong>, kabak kemanenin hem geleneksel hem çağdaş yorumunu sahneye taşıyan performanslarıyla dikkat çekmektedir. Sahnedeki duruşu, izleyiciyle iletişimi ve müzikal anlatımı onu yaşıtlarından ayrıştırmaktadır.</p>
+    </article>
+
+    <article class="bio-card">
+      <h3>
+        <svg class="bio-ico" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M21 6h-5l-1-2H9L8 6H3v14h18zM5 18v-8h14v8z" fill="currentColor"/></svg>
+        Dijital Platformlardaki Etkisi
+      </h3>
+      <p>YouTube, Instagram ve TikTok’ta gerçekleştirdiği müzik paylaşımlarıyla geniş bir kitleye ulaşmakta, kabak kemanenin bilinirliğini artırmak için dijital içerikler üretmektedir. Online dinleyiciler tarafından ilgiyle takip edilen sanatçı, kabak kemanenin gençler arasında daha yaygın hale gelmesine katkıda bulunmaktadır.</p>
+    </article>
+
+    <article class="bio-faq bio-card">
+      <h3>
+        <svg class="bio-ico" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.03 2 11c0 3.31 2.69 6 6 6h1v-2H8c-2.21 0-4-1.79-4-4 0-4 3.58-7 8-7s8 3 8 7c0 2.21-1.79 4-4 4h-1v2h1c3.31 0 6-2.69 6-6 0-4.97-4.48-9-10-9z" fill="currentColor"/></svg>
+        Sık Sorulan Sorular (SSS)
+      </h3>
+
+      <div class="faq-item">
+        <h4>Yusuf Emre Yalçın kimdir?</h4>
+        <p>Antalya doğumlu genç bir kabak kemane sanatçısıdır. Geleneksel Türk müziği ile modern yorumları birleştiren müzikal kimliğiyle tanınır.</p>
+      </div>
+
+      <div class="faq-item">
+        <h4>Ne tür müzik yapıyor?</h4>
+        <p>Türk halk müziği, klasik Türk müziği ve modern düzenlemeleri harmanlayarak özgün kabak kemane performansları sunmaktadır.</p>
+      </div>
+
+      <div class="faq-item">
+        <h4>Hangi makamlarda eser icra ediyor?</h4>
+        <p>Hüseyni, nihavent ve hicaz gibi makamlarda performanslar sergilemektedir.</p>
+      </div>
+
+      <div class="faq-item">
+        <h4>Yusuf Emre Yalçın’ı nereden takip edebilirim?</h4>
+        <p>YouTube, Instagram ve TikTok üzerinden müzik performanslarını takip edebilirsiniz.</p>
+      </div>
+    </article>
+
+    <aside class="bio-keywords">
+      <h4>SEO Anahtar Kelimeler</h4>
+      <p>yusuf emre yalçın, kabak kemane, kabak kemane sanatçısı, genç kabak kemane icracıları, türk müziği, antalya, kabak kemane kimdir, kabak kemane biyografi, türk halk müziği, makam müziği</p>
+    </aside>
+  </div>
+</section>
+
+<style>
+  .bio-dark {
+    --bg: #0f1115;
+    --card: #171a20;
+    --text: #e9e9ee;
+    --muted: #b9bcc7;
+    --accent: #8b1e3f;   /* Bordo */
+    --accent-2: #b83a4b; /* Daha açık bordo */
+    --border: #262a33;
+    --shadow: 0 10px 30px rgba(0,0,0,.35);
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Poppins", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  }
+
+  .bio-container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 56px 20px 64px;
+  }
+
+  .bio-header h2 {
+    font-family: "Playfair Display", serif;
+    font-size: clamp(28px, 4vw, 42px);
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: .3px;
+    margin: 0 0 10px;
+    background: linear-gradient(90deg, var(--text), #ffffffd0 60%, #ffffffa0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .bio-accent-bar {
+    display: inline-block;
+    width: 120px;
+    height: 4px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, var(--accent), var(--accent-2));
+    box-shadow: 0 0 0 4px rgba(139,30,63,.15);
+  }
+
+  .bio-card {
+    background: linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.005));
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px;
+    margin-top: 22px;
+    box-shadow: var(--shadow);
+    backdrop-filter: blur(4px);
+  }
+
+  .bio-card h3 {
+    font-family: "Playfair Display", serif;
+    font-size: clamp(20px, 3.2vw, 28px);
+    font-weight: 700;
+    margin: 0 0 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 12px;
+    border-left: 4px solid var(--accent);
+  }
+
+  .bio-ico { color: var(--accent); flex: 0 0 auto; }
+
+  .bio-card p {
+    margin: 10px 0 0;
+    font-size: clamp(15px, 2.3vw, 17px);
+    line-height: 1.75;
+    color: var(--text);
+  }
+
+  .bio-list {
+    margin: 8px 0 8px 0;
+    padding-left: 0;
+    list-style: none;
+    display: grid;
+    gap: 6px;
+  }
+  .bio-list li {
+    position: relative;
+    padding-left: 28px;
+    color: var(--text);
+  }
+  .bio-list li::before {
+    content: "";
+    position: absolute;
+    left: 0; top: 9px;
+    width: 12px; height: 12px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 30%, var(--accent-2), var(--accent));
+    box-shadow: 0 0 0 3px rgba(184,58,75,.18);
+  }
+
+  .bio-faq .faq-item { margin-top: 14px; }
+  .bio-faq h4 {
+    font-size: clamp(16px, 2.6vw, 18px);
+    margin: 10px 0 6px;
+    color: #ffffffd0;
+    font-weight: 600;
+  }
+
+  .bio-keywords {
+    margin-top: 26px;
+    padding: 18px 20px;
+    border: 1px dashed var(--border);
+    border-radius: 14px;
+    background: rgba(139,30,63,.06);
+  }
+  .bio-keywords h4 {
+    margin: 0 0 6px;
+    font-weight: 600;
+    color: #ffdfe6;
+    letter-spacing: .2px;
+  }
+
+  /* Erişilebilirlik & Linkler */
+  .bio-dark a { color: #ffd7df; text-decoration: underline; text-decoration-color: rgba(255,215,223,.5); }
+  .bio-dark a:hover { text-decoration-thickness: 2px; }
+
+  /* Mobil uyum: kart boşlukları & tipografi */
+  @media (max-width: 520px) {
+    .bio-card { padding: 18px; border-radius: 14px; }
+  }
+</style>
+<!-- ====== /BİYOGRAFİ BLOĞU ====== -->
