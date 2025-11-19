@@ -7,7 +7,15 @@
       <h2>Yusuf Emre Yalçın – Zenginleştirilmiş SEO Odaklı Biyografi</h2>
       <span aria-hidden="true" class="bio-accent-bar"></span>
     </header>
-
+    
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Yusuf Emre Yalçın",
+  "image": "https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/file_000000006cf871f4a142403afc8937b4.png"
+}
+</script>
     <article class="bio-card">
       <h3>
         <svg class="bio-ico" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 3c-4.97 0-9 3.58-9 8 0 2.53 1.36 4.78 3.5 6.22V21l3.2-1.92c.75.2 1.54.3 2.3.3 4.97 0 9-3.58 9-8s-4.03-8-9-8z" fill="currentColor"/></svg>
