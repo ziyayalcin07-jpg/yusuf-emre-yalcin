@@ -224,6 +224,27 @@
   gtag('config', 'G-K3QBYMJKH6');
 </script>
 <head>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Yusuf Emre Yalçın",
+  "description": "Antalya doğumlu kabak kemane sanatçısı. Türk halk müziğini genç kuşağa aktaran ve sosyal medyada geniş kitleye ulaşan bir müzisyendir.",
+  "image": "https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/assets/profile.jpg",
+  "url": "https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/",
+  "jobTitle": "Kabak Kemane Sanatçısı",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Antalya",
+    "addressCountry": "TR"
+  },
+  "sameAs": [
+    "https://www.instagram.com/yusufemreyalciin",
+    "https://youtube.com/@yusufemreyalcin",
+    "https://www.tiktok.com/@yusufemreyalcin"
+  ]
+}
+</script>
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-M71E41PBWZ">
 </script>
