@@ -33,6 +33,13 @@
     "sameAs": [
       "https://www.instagram.com/yusufemreyalciin",
       "https://www.youtube.com/@yusufemreyalcin"
+<div class="cover-card">
+  <img
+    src="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/file_000000006cf871f4a142403afc8937b4.png"
+    alt="Kabak kemanenin genç sesi Yusuf Emre Yalçın"
+    title="Kabak Kemanenin Genç Sesi - Yusuf Emre Yalçın"
+  />
+  </div>bu
     ]
   }
   </script>
@@ -168,7 +175,18 @@
         kayıtları ve sosyal medyada paylaştığı performans videolarıyla geniş bir dinleyici kitlesine ulaşmaktadır.
       </p>
 
-      <div class="tags">
+     .cover-card {
+  margin-top: 24px;
+  border-radius: 24px;
+  overflow: hidden;
+  border: 1px solid rgba(148, 163, 184, 0.35);
+  background: #020617;
+}
+
+.cover-card img {
+  width: 100%;
+  display: block;
+} <div class="tags">
         <span class="tag">#kabakkemane</span>
         <span class="tag">#türkhalkmüziği</span>
         <span class="tag">#antalya</span>
