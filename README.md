@@ -164,6 +164,11 @@
     }
   </style>
 </head>
+<meta property="og:title" content="Yusuf Emre Yalçın - Kabak Kemane Sanatçısı">
+<meta property="og:description" content="Kabak kemanenin modern yorumcusu genç müzisyen Yusuf Emre Yalçın’ın resmi web sayfası. Videolar, biyografi, sahne performansları ve sosyal medya bağlantıları.">
+<meta property="og:image" content="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/resimler/kapak.png">
+<meta property="og:url" content="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/">
+<meta name="twitter:card" content="summary_large_image">
 <body>
   <main class="container">
     <section>
