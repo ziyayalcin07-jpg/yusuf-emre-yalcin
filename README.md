@@ -5,6 +5,204 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Yusuf Emre Yalçın | Kabak Kemane Sanatçısı</title>
 
+  <meta name="description" content="Yusuf Emre Yalçın, Antalya doğumlu kabak kemane sanatçısıdır. Türk halk müziğini genç kuşağa aktaran bir müzisyendir." />
+  <link rel="canonical" href="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/" />
+
+  <link rel="icon" href="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/favicon.ico" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Yusuf Emre Yalçın | Kabak Kemane Sanatçısı" />
+  <meta property="og:description" content="Antalya doğumlu kabak kemane sanatçısı Yusuf Emre Yalçın hakkında bilgiler, videolar ve sosyal medya bağlantıları." />
+  <meta property="og:url" content="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/" />
+  <meta property="og:image" content="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/9903800866169421583.jpeg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Yusuf Emre Yalçın | Kabak Kemane Sanatçısı" />
+  <meta name="twitter:description" content="Türk halk müziğini genç kuşağa aktaran kabak kemane sanatçısı Yusuf Emre Yalçın." />
+  <meta name="twitter:image" content="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/9903800866169421583.jpeg" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Person",
+    "name": "Yusuf Emre Yalçın",
+    "jobTitle": "Kabak Kemane Sanatçısı",
+    "description": "Antalya doğumlu kabak kemane sanatçısı. Türk halk müziğini genç kuşağa aktaran bir müzisyendir.",
+    "image": "https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/9903800866169421583.jpeg",
+    "url": "https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin",
+    "sameAs": [
+      "https://www.instagram.com/yusufemreyalciin",
+      "https://www.youtube.com/@yusufemreyalcin"
+    ]
+  }
+  </script>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    body {
+      background: #050816;
+      color: #f9fafb;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .container {
+      max-width: 900px;
+      width: 100%;
+      background: radial-gradient(circle at top left, #1f2933, #020617);
+      border-radius: 24px;
+      padding: 24px;
+      box-shadow: 0 18px 45px rgba(0,0,0,0.65);
+      display: grid;
+      grid-template-columns: minmax(0,2fr) minmax(0,1.5fr);
+      gap: 24px;
+    }
+    @media (max-width:700px) {
+      .container {
+        grid-template-columns: 1fr;
+      }
+    }
+    .title {
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .subtitle {
+      font-size: 16px;
+      color: #9ca3af;
+      margin-bottom: 16px;
+    }
+    .description {
+      font-size: 15px;
+      line-height: 1.6;
+      color: #e5e7eb;
+      margin-bottom: 20px;
+    }
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 18px;
+    }
+    .tag {
+      font-size: 12px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(148,163,184,0.5);
+      color: #e5e7eb;
+    }
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .btn {
+      text-decoration: none;
+      font-size: 14px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      border: 1px solid #fbbf24;
+      color: #111827;
+      background: #fbbf24;
+      font-weight: 600;
+      transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+    }
+    .btn.secondary {
+      background: transparent;
+      color: #fbbf24;
+    }
+    .btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 8px 20px rgba(251,191,36,0.35);
+    }
+    .profile {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .profile-inner {
+      position: relative;
+      border-radius: 24px;
+      overflow: hidden;
+      aspect-ratio: 4/5;
+      width: 100%;
+      max-width: 320px;
+      border: 1px solid rgba(148,163,184,0.35);
+      background: #020617;
+    }
+    .profile-inner img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .profile-label {
+      position: absolute;
+      left: 12px;
+      bottom: 12px;
+      background: rgba(15,23,42,0.85);
+      border-radius: 999px;
+      padding: 4px 12px;
+      font-size: 11px;
+      color: #e5e7eb;
+      border: 1px solid rgba(148,163,184,0.7);
+      backdrop-filter: blur(6px);
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <section>
+      <h1 class="title">Yusuf Emre Yalçın</h1>
+      <h2 class="subtitle">Antalya doğumlu kabak kemane sanatçısı</h2>
+      <p class="description">
+        Yusuf Emre Yalçın, kabak kemanenin kendine özgü tınısını modern yorumlarla birleştirerek
+        Türk halk müziğini genç kuşakla buluşturan bir müzisyendir. Konserleri, dijital platformlardaki
+        kayıtları ve sosyal medyada paylaştığı performans videolarıyla geniş bir dinleyici kitlesine ulaşmaktadır.
+      </p>
+
+      <div class="tags">
+        <span class="tag">#kabakkemane</span>
+        <span class="tag">#türkhalkmüziği</span>
+        <span class="tag">#antalya</span>
+        <span class="tag">#yusufemreyalçın</span>
+      </div>
+
+      <div class="links">
+        <a class="btn" href="https://www.youtube.com/@yusufemreyalcin" target="_blank" rel="noopener noreferrer">
+          YouTube Kanalı
+        </a>
+        <a class="btn secondary" href="https://www.instagram.com/yusufemreyalciin" target="_blank" rel="noopener noreferrer">
+          Instagram Profili
+        </a>
+      </div>
+    </section>
+
+    <section class="profile">
+      <div class="profile-inner">
+        <img src="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/9903800866169421583.jpeg"
+             alt="Kabak kemane sanatçısı Yusuf Emre Yalçın"
+             title="Yusuf Emre Yalçın - Kabak Kemane Sanatçısı" />
+        <div class="profile-label">Yusuf Emre Yalçın • Kabak Kemane</div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yusuf Emre Yalçın | Kabak Kemane Sanatçısı</title>
+
   <!-- TEMEL AÇIKLAMA -->
   <meta name="description" content="Yusuf Emre Yalçın, Antalya doğumlu kabak kemane sanatçısıdır. Türk halk müziğini genç kuşağa aktaran ve sosyal medyada geniş kitlelere ulaşan bir müzisyendir." />
 
