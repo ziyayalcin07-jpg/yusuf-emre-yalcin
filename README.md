@@ -1,3 +1,18 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Person",
+  "name": "Yusuf Emre Yalçın",
+  "jobTitle": "Kabak Kemane Sanatçısı",
+  "description": "Antalya doğumlu kabak kemane sanatçısı. Türk halk müziğini genç kuşağa aktaran bir müzisyendir.",
+  "image": "https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/assets/profile.jpg",
+  "url": "https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin",
+  "sameAs": [
+    "https://www.instagram.com/yusufemreyalciin",
+    "https://www.youtube.com/@yusufemreyalcin"
+  ]
+}
+</script>
 <!-- ====== BİYOGRAFİ (Koyu Gri & Bordo | Playfair + Poppins) ====== -->
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
