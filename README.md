@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
+  <meta property="og:title" content="Yusuf Emre Yalçın" />
+<meta property="og:description" content="Antalya doğumlu kabak kemane sanatçısı Yusuf Emre Yalçın'ın resmi sitesi." />
+<meta property="og:image" content="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/yusufemreyalcin.jpg" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Yusuf Emre Yalçın | Kabak Kemane Sanatçısı</title>
