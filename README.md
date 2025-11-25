@@ -2,6 +2,77 @@
 <html lang="tr">
 <head>
   <head>
+  <!-- Temel Ayarlar -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yusuf Emre Yalçın | Kabak Kemane Sanatçısı</title>
+
+  <!-- SEO Açıklaması -->
+  <meta name="description" content="Yusuf Emre Yalçın, Antalya doğumlu genç bir kabak kemane sanatçısıdır. Türk halk müziğini modern yorumlarla genç kuşağa aktaran bir müzisyendir." />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/favicon.ico" />
+
+  <!-- Open Graph (Facebook, WhatsApp, Instagram önizleme) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Yusuf Emre Yalçın" />
+  <meta property="og:title" content="Yusuf Emre Yalçın | Kabak Kemane Sanatçısı" />
+  <meta property="og:description" content="Antalya doğumlu genç kabak kemane sanatçısı Yusuf Emre Yalçın hakkında bilgiler, videolar ve sosyal medya bağlantıları." />
+  <meta property="og:url" content="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/" />
+  <meta property="og:image" content="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/file_000000006cf871f4a142403afc8937b4.png" />
+  <meta property="og:image:alt" content="Kabak kemane çalan Yusuf Emre Yalçın" />
+
+  <!-- Twitter Kartı -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Yusuf Emre Yalçın | Kabak Kemane Sanatçısı" />
+  <meta name="twitter:description" content="Antalya doğumlu genç kabak kemane sanatçısı Yusuf Emre Yalçın'ın resmi tanıtım sayfası." />
+  <meta name="twitter:image" content="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/file_000000006cf871f4a142403afc8937b4.png" />
+
+  <!-- Yapılandırılmış Veri (Schema.org) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Yusuf Emre Yalçın",
+    "alternateName": "Yusuf Emre Yalcin",
+    "jobTitle": "Kabak Kemane Sanatçısı",
+    "description": "Antalya doğumlu genç bir kabak kemane sanatçısı. Türk halk müziğini modern yorumlarla genç kuşakla buluşturan bir müzisyen.",
+    "image": "https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/file_000000006cf871f4a142403afc8937b4.png",
+    "url": "https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/",
+    "birthPlace": "Antalya, Türkiye",
+    "sameAs": [
+      "https://www.instagram.com/yusufemreyalciin/"
+      /* Diğer hesaplar varsa:
+      , "https://www.youtube.com/........"
+      , "https://www.tiktok.com/@........."
+      */
+    ]
+  }
+  </script>
+
+  <!-- Web Sitesi için ek Schema (isteğe bağlı ama faydalı) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Yusuf Emre Yalçın",
+    "url": "https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/"
+  }
+  </script>
+
+  <!-- Google Analytics / Google Tag (KENDİ ID'İNLE DEĞİŞTİR) -->
+  <!-- G-XXXXXXXXXX yerine kendi ölçüm kimliğini yazmalısın -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</head>
+  <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Yusuf Emre Yalçın | Kabak Kemane Sanatçısı</title>
