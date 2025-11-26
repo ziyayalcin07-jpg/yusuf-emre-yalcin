@@ -1,419 +1,172 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Yusuf Emre Yalçın | Kabak Kemane Sanatçısı</title>
 
   <!-- SEO -->
-  <meta name="description" content="Yusuf Emre Yalçın, Antalya doğumlu genç kabak kemane sanatçısıdır. Türk halk müziğini modern yorumlarla genç kuşağa taşıyan bir müzisyendir.">
-  <link rel="canonical" href="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/">
+  <meta name="description" content="Yusuf Emre Yalçın, Antalya doğumlu genç bir kabak kemane sanatçısıdır. Türk halk müziğini modern yorumlarla genç kuşağa taşımaktadır." />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/" />
 
-  <!-- Sosyal Medya Önizleme -->
-  <meta property="og:title" content="Yusuf Emre Yalçın | Kabak Kemane Sanatçısı">
-  <meta property="og:description" content="Genç kabak kemane sanatçısı Yusuf Emre Yalçın'ın resmi tanıtım sayfası.">
-  <meta property="og:image" content="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/file_000000006cf871f4a142403afc8937b4.png">
-  <meta property="og:url" content="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/">
-  <meta property="og:type" content="website">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Yusuf Emre Yalçın | Kabak Kemane Sanatçısı" />
+  <meta property="og:description" content="Genç kabak kemane sanatçısı Yusuf Emre Yalçın’ın resmi web sitesi." />
+  <meta property="og:image" content="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/file_000000006cf871f4a142403afc8937b4.png" />
+  <meta property="og:url" content="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/" />
+  <meta property="og:type" content="website" />
 
+  <!-- PERSON SCHEMA -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Yusuf Emre Yalçın",
+    "alternateName": "Yusuf Emre Yalcin",
+    "birthDate": "2015",
+    "description": "Genç kabak kemane sanatçısı. Antalya doğumlu olup Türk halk müziğini genç kuşağa modern yorumlarla ulaştırmaktadır.",
+    "jobTitle": "Kabak Kemane Sanatçısı",
+    "gender": "Male",
+    "image": "https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/file_000000006cf871f4a142403afc8937b4.png",
+    "url": "https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/",
+    "sameAs": [
+      "https://www.instagram.com/yusufemreyalciin",
+      "https://youtube.com/@yusufemreyalcin",
+      "https://www.tiktok.com"
+    ]
+  }
+  </script>
+
+  <!-- WEBSITE SCHEMA -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Yusuf Emre Yalçın Resmi Web Sitesi",
+    "url": "https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/"
+  }
+  </script>
+
+  <!-- CSS -->
   <style>
     body {
       margin: 0;
       background: #000;
-      font-family: Arial, sans-serif;
       color: #fff;
+      font-family: Arial, sans-serif;
       text-align: center;
     }
-
-    /* KAPAK */
-    .kapak {
+    img {
       width: 100%;
-      height: 360px;
-      background-image: url("file_000000006cf871f4a142403afc8937b4.png");
-      background-size: cover;
-      background-position: center;
+      border-radius: 0;
     }
-
-    .content {
-      padding: 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-
     h1 {
       margin-top: 20px;
       font-size: 32px;
-      font-weight: bold;
     }
-
-    p.desc {
-      font-size: 18px;
-      color: #e1e1e1;
-      margin-top: 10px;
-      margin-bottom: 30px;
+    p {
+      color: #ddd;
+      padding: 0 20px;
     }
-
-    /* BUTONLAR */
     .buttons {
+      margin-top: 25px;
       display: flex;
       justify-content: center;
-      gap: 12px;
-      margin-bottom: 35px;
+      gap: 20px;
       flex-wrap: wrap;
     }
-
-    .button {
-      padding: 12px 24px;
-      border-radius: 30px;
-      text-decoration: none;
-      font-size: 17px;
-      font-weight: bold;
+    .btn {
       border: 1px solid #fff;
+      padding: 12px 25px;
+      border-radius: 15px;
+      font-size: 18px;
       color: #fff;
+      text-decoration: none;
       transition: 0.2s;
     }
-
-    .button:hover {
-      background: #fff;
-      color: #000;
+    .btn:hover {
+      opacity: 0.7;
     }
 
-    /* BİYOGRAFİ */
-    .bio {
+    /* Video Bölümü */
+    .video-section, .insta-section, .gallery {
       max-width: 900px;
-      margin: auto;
-      text-align: left;
-      background: rgb(20, 20, 20);
+      margin: 40px auto;
+      background: #111;
       padding: 20px;
       border-radius: 12px;
-      line-height: 1.6;
-      font-size: 16px;
     }
-
-    .bio h2 {
-      margin-top: 0;
-      margin-bottom: 10px;
-      font-size: 22px;
-    }
-
-    .bio h3 {
-      margin-top: 18px;
-      margin-bottom: 6px;
-      font-size: 18px;
-    }
-
-    .bio p {
-      margin-top: 0;
-      margin-bottom: 8px;
-    }
-
-    .bio ul {
-      padding-left: 20px;
-      margin-top: 4px;
-      margin-bottom: 8px;
-    }
-
-    .bio li {
-      margin-bottom: 4px;
-    }
-
-    /* FOTO GALERİ */
-    .galeri {
-      max-width: 900px;
-      margin: 30px auto 0;
-      background: rgb(20,20,20);
-      padding: 20px;
-      border-radius: 12px;
-      text-align: left;
-    }
-
-    .galeri h2 {
-      font-size: 22px;
-      margin-bottom: 15px;
-    }
-
-    .galeri-grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 10px;
-    }
-
-    .galeri-grid img {
+    iframe {
       width: 100%;
-      height: 110px;
-      object-fit: cover;
-      border-radius: 10px;
-      cursor: pointer;
-      transition: .2s;
-    }
-
-    .galeri-grid img:hover {
-      transform: scale(1.05);
-    }
-
-    /* YOUTUBE VİDEO BÖLÜMÜ */
-    .video-section {
-      max-width: 900px;
-      margin: 30px auto 0;
-      background: rgb(20,20,20);
-      padding: 20px;
+      height: 350px;
       border-radius: 12px;
-      text-align: left;
+      border: none;
+      margin-top: 20px;
     }
 
-    .video-section h2 {
-      font-size: 22px;
-      margin-bottom: 10px;
-    }
-
-    .video-section p {
-      margin-top: 0;
-      margin-bottom: 16px;
-      font-size: 15px;
-      line-height: 1.5;
-    }
-
-    .video-wrapper {
-      position: relative;
-      padding-bottom: 56.25%; /* 16:9 */
-      height: 0;
-      overflow: hidden;
-      border-radius: 12px;
-      margin-bottom: 20px;
-    }
-
-    .video-wrapper iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      border: 0;
-    }
-
-    /* INSTAGRAM REELS */
-    .insta-section {
-      max-width: 900px;
-      margin: 30px auto 0;
-      background: rgb(20,20,20);
-      padding: 20px;
-      border-radius: 12px;
-      text-align: left;
-    }
-
-    .insta-section h2 {
-      font-size: 22px;
-      margin-bottom: 15px;
-    }
-
-    .insta-grid {
+    /* Foto Galeri */
+    .gallery-grid {
       display: grid;
       grid-template-columns: 1fr;
       gap: 20px;
     }
-
-    .insta-wrapper iframe {
-      width: 100%;
-      border: 0;
+    .gallery-grid img {
       border-radius: 12px;
-      overflow: hidden;
-    }
-
-    footer {
-      margin-top: 40px;
-      font-size: 14px;
-      color: #888;
-    }
-
-    @media(max-width:700px){
-      .galeri-grid {
-        grid-template-columns: repeat(2,1fr);
-      }
-      .galeri-grid img {
-        height: 120px;
-      }
     }
   </style>
 </head>
 
+
 <body>
 
-  <!-- KAPAK -->
-  <div class="kapak"></div>
+  <!-- KAPAK FOTOĞRAF -->
+  <img src="file_000000006cf871f4a142403afc8937b4.png" alt="Yusuf Emre Yalçın Kapak" />
 
-  <div class="content">
+  <h1>Yusuf Emre Yalçın</h1>
+  <p>
+    Antalya doğumlu genç kabak kemane sanatçısı.  
+    Türk halk müziğini modern yorumlarla genç kuşağa taşıyor.
+  </p>
 
-    <!-- BAŞLIK + KISA TANIM -->
-    <h1>Yusuf Emre Yalçın</h1>
+  <!-- Sosyal Medya Butonları -->
+  <div class="buttons">
+    <a class="btn" href="https://www.instagram.com/yusufemreyalciin" target="_blank">Instagram</a>
+    <a class="btn" href="https://youtube.com/@yusufemreyalcin" target="_blank">YouTube</a>
+    <a class="btn" href="https://www.tiktok.com" target="_blank">TikTok</a>
+  </div>
 
-    <p class="desc">
-      Antalya doğumlu genç kabak kemane sanatçısı.  
-      Türk halk müziğini modern yorumlarla genç kuşağa taşıyor.
-    </p>
-
-    <!-- SOSYAL MEDYA BUTONLARI -->
-    <div class="buttons">
-      <a class="button" href="https://www.instagram.com/yusufemreyalciin" target="_blank">Instagram</a>
-      <a class="button" href="https://youtube.com/@yusufemreyalcin?si=zi2NIPtvMrCGgxXN" target="_blank">YouTube</a>
-      <a class="button" href="https://www.tiktok.com" target="_blank">TikTok</a>
+  <!-- FOTO GALERİ -->
+  <div class="gallery">
+    <h2>Foto Galeri</h2>
+    <div class="gallery-grid">
+      <img src="9903800866169421583.jpeg" />
+      <img src="file_000000006ec861f4900de3781cf9855d.png" />
+      <img src="yusufemreyalcin.jpg" />
+      <img src="file_000000006cf871f4a142403afc8937b4.png" />
+      <img src="A_screenshot_from_a_live_TRT_1_CANLI_broadcast_sho.png" />
     </div>
+  </div>
 
-    <!-- BİYOGRAFİ -->
-    <div class="bio">
-      <h2>Hakkında</h2>
-      <p>
-        <strong>Yusuf Emre Yalçın</strong>, 2015 yılında Antalya’da doğan genç bir kabak kemane sanatçısıdır.
-        Küçük yaşlardan itibaren müziğe ve özellikle Türk halk ezgilerine ilgi duymaya başlamıştır.
-        Ailesinin ve çevresindeki müzisyenlerin desteğiyle, kısa sürede kabak kemane ile güçlü bir bağ kurmuştur.
-      </p>
+  <!-- YOUTUBE VİDEOLARI -->
+  <div class="video-section">
+    <h2>YouTube Videoları</h2>
 
-      <h3>Sanatsal Yolculuğu</h3>
-      <p>
-        Yusuf Emre, kabak kemane ile tanıştıktan sonra enstrümanını sadece bir hobi olarak değil,
-        hayatının merkezine aldığı bir ifade aracı olarak görmeye başlamıştır. Çalış disiplinini küçük
-        yaşına rağmen hiç kaybetmeyen Yusuf, düzenli provalar ve sahne deneyimleriyle hem teknik becerisini
-        hem de sahne hâkimiyetini geliştirmektedir.
-      </p>
+    <iframe src="https://www.youtube.com/embed/ygvqhc3CUHk"></iframe>
+    <iframe src="https://www.youtube.com/embed/t6IYIFCT7WQ"></iframe>
+    <iframe src="https://www.youtube.com/embed/CgTA_3fiMvM"></iframe>
+    <iframe src="https://www.youtube.com/embed/yXQkpkZmDRc"></iframe>
+  </div>
 
-      <h3>Tarzı ve Repertuvarı</h3>
-      <p>
-        Repertuvarında; Teke Yöresi başta olmak üzere Anadolu’nun farklı bölgelerinden türküler,
-        uzun havalar ve oyun havalarının yanı sıra, gençlerin de severek dinleyebileceği modern düzenlemeler
-        ve özgün yorumlar yer almaktadır. Yusuf Emre, geleneksel tavrı korurken kabak kemanenin sesini
-        yeni neslin anlayacağı bir dille buluşturmaya önem verir.
-      </p>
+  <!-- INSTAGRAM REELS -->
+  <div class="insta-section">
+    <h2>Instagram Reels</h2>
 
-      <h3>Sosyal Medya ve Dijital Platformlar</h3>
-      <p>
-        Yusuf Emre, performanslarını Instagram, YouTube ve benzeri dijital platformlarda paylaşarak,
-        hem kendi yaşıtlarına hem de geniş bir izleyici kitlesine ulaşmayı hedeflemektedir.
-        Kısa videolar, canlı performans kayıtları ve özel proje çalışmalarıyla kabak kemanenin sesini
-        daha görünür kılmaktadır.
-      </p>
-
-      <h3>Hedefleri</h3>
-      <p>
-        Genç yaşına rağmen kararlı bir müzik yolculuğuna sahip olan Yusuf Emre Yalçın’ın en büyük hedefi;
-        kabak kemaneyi Türkiye’de ve dünyada daha fazla insana tanıtmak, Türk halk müziğini ise
-        gelecek kuşaklara sevdirerek aktarmaktır. Sahne deneyimlerini artırmak, yeni projelere imza atmak
-        ve özgün çalışmalar üretmek için çalışmalarına aralıksız devam etmektedir.
-      </p>
-
-      <h3>Kısa Özet</h3>
-      <ul>
-        <li>2015 doğumlu, Antalya’da yaşıyor.</li>
-        <li>Kabak kemaneyi küçük yaşta keşfetti ve düzenli olarak çalışıyor.</li>
-        <li>Türk halk müziğini gençlere sevdirmeyi amaçlıyor.</li>
-        <li>Sosyal medya üzerinden dinleyicileriyle buluşuyor.</li>
-      </ul>
-
-      <p>
-        Yusuf Emre, müzik yolculuğuna her geçen gün yeni deneyimler ekleyerek,
-        kabak kemanenin genç sesi olarak çalışmalarını sürdürmektedir.
-      </p>
-    </div>
-
-    <!-- FOTO GALERİ -->
-    <div class="galeri">
-      <h2>Foto Galeri</h2>
-      <div class="galeri-grid">
-        <img src="file_000000006cf871f4a142403afc8937b4.png" alt="Yusuf Emre Yalçın Kapak Fotoğrafı">
-        <img src="yusufemreyalcin.jpg" alt="Yusuf Emre Yalçın Profil Fotoğrafı">
-        <img src="9903800866169421583.jpeg" alt="Yusuf Emre Yalçın Fotoğraf 1">
-        <img src="9903800866169421583 (1).jpeg" alt="Yusuf Emre Yalçın Fotoğraf 2">
-        <img src="file_000000006ec861f4900de3781cf9855d.png" alt="Yusuf Emre Yalçın Fotoğraf 3">
-      </div>
-    </div>
-
-    <!-- YOUTUBE VİDEOLARI -->
-    <div class="video-section">
-      <h2>YouTube Videoları</h2>
-      <p>Yusuf Emre Yalçın’ın kabak kemane performanslarından seçilmiş videolar.</p>
-
-      <div class="video-wrapper">
-        <iframe 
-          src="https://www.youtube.com/embed/ygvqhc3CUHk"
-          title="Yusuf Emre Yalçın video 1"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen>
-        </iframe>
-      </div>
-
-      <div class="video-wrapper">
-        <iframe 
-          src="https://www.youtube.com/embed/t6IYIFCT7WQ"
-          title="Yusuf Emre Yalçın video 2"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen>
-        </iframe>
-      </div>
-
-      <div class="video-wrapper">
-        <iframe 
-          src="https://www.youtube.com/embed/CgTA_3fiMvM"
-          title="Yusuf Emre Yalçın video 3"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen>
-        </iframe>
-      </div>
-
-      <div class="video-wrapper">
-        <iframe 
-          src="https://www.youtube.com/embed/yXQkpkZmDRc"
-          title="Yusuf Emre Yalçın video 4"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen>
-        </iframe>
-      </div>
-    </div>
-
-    <!-- INSTAGRAM REELS -->
-    <div class="insta-section">
-      <h2>Instagram Reels</h2>
-
-      <div class="insta-grid">
-        <div class="insta-wrapper">
-          <iframe 
-            src="https://www.instagram.com/reel/DRaLYkgiKtC/embed"
-            height="460"
-            scrolling="no"
-            allowtransparency="true">
-          </iframe>
-        </div>
-
-        <div class="insta-wrapper">
-          <iframe 
-            src="https://www.instagram.com/reel/DQmNkeEDO-P/embed"
-            height="460"
-            scrolling="no"
-            allowtransparency="true">
-          </iframe>
-        </div>
-
-        <div class="insta-wrapper">
-          <iframe 
-            src="https://www.instagram.com/reel/DHBpvzniI-_/embed"
-            height="460"
-            scrolling="no"
-            allowtransparency="true">
-          </iframe>
-        </div>
-
-        <div class="insta-wrapper">
-          <iframe 
-            src="https://www.instagram.com/reel/DEB4mJ8iyNM/embed"
-            height="460"
-            scrolling="no"
-            allowtransparency="true">
-          </iframe>
-        </div>
-      </div>
-    </div>
-
-    <footer>
-      © 2025 Yusuf Emre Yalçın — Tüm hakları saklıdır.
-    </footer>
-
+    <iframe src="https://www.instagram.com/reel/DRaLYkgiKtC/embed"></iframe>
+    <iframe src="https://www.instagram.com/reel/DQmNkeEDO-P/embed"></iframe>
+    <iframe src="https://www.instagram.com/reel/DHBpvzniI-_/embed"></iframe>
+    <iframe src="https://www.instagram.com/reel/DEB4mJ8iyNM/embed"></iframe>
   </div>
 
 </body>
