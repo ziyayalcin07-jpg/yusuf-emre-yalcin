@@ -11,7 +11,7 @@
 
   <!-- Sosyal Medya Önizleme -->
   <meta property="og:title" content="Yusuf Emre Yalçın | Kabak Kemane Sanatçısı">
-  <meta property="og:description" content="Antalya doğumlu genç kabak kemane sanatçısı Yusuf Emre Yalçın'ın resmi tanıtım sayfası.">
+  <meta property="og:description" content="Genç kabak kemane sanatçısı Yusuf Emre Yalçın'ın resmi tanıtım sayfası.">
   <meta property="og:image" content="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/file_000000006cf871f4a142403afc8937b4.png">
   <meta property="og:url" content="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/">
   <meta property="og:type" content="website">
@@ -25,7 +25,7 @@
       text-align: center;
     }
 
-    /* ÜSTTE KAPAK RESMİ */
+    /* KAPAK */
     .kapak {
       width: 100%;
       height: 360px;
@@ -53,7 +53,7 @@
       margin-bottom: 30px;
     }
 
-    /* Sosyal Medya Butonları */
+    /* BUTONLAR */
     .buttons {
       display: flex;
       justify-content: center;
@@ -78,13 +78,13 @@
       color: #000;
     }
 
-    /* Biyografi */
+    /* BİYOGRAFİ */
     .bio {
       max-width: 900px;
       margin: auto;
       text-align: left;
       background: rgb(20, 20, 20);
-      padding: 20px 20px 24px;
+      padding: 20px;
       border-radius: 12px;
       line-height: 1.6;
       font-size: 16px;
@@ -92,7 +92,7 @@
 
     .bio h2 {
       margin-top: 0;
-      margin-bottom: 8px;
+      margin-bottom: 10px;
       font-size: 22px;
     }
 
@@ -121,7 +121,7 @@
     .galeri {
       max-width: 900px;
       margin: 30px auto 0;
-      background: rgb(20, 20, 20);
+      background: rgb(20,20,20);
       padding: 20px;
       border-radius: 12px;
       text-align: left;
@@ -140,9 +140,9 @@
 
     .galeri-grid img {
       width: 100%;
-      border-radius: 10px;
-      object-fit: cover;
       height: 110px;
+      object-fit: cover;
+      border-radius: 10px;
       cursor: pointer;
       transition: .2s;
     }
@@ -151,11 +151,11 @@
       transform: scale(1.05);
     }
 
-    /* VİDEO BÖLÜMÜ */
+    /* YOUTUBE VİDEO BÖLÜMÜ */
     .video-section {
       max-width: 900px;
       margin: 30px auto 0;
-      background: rgb(20, 20, 20);
+      background: rgb(20,20,20);
       padding: 20px;
       border-radius: 12px;
       text-align: left;
@@ -173,18 +173,13 @@
       line-height: 1.5;
     }
 
-    .video-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 16px;
-    }
-
     .video-wrapper {
       position: relative;
-      padding-bottom: 56.25%; /* 16:9 oran */
+      padding-bottom: 56.25%; /* 16:9 */
       height: 0;
       overflow: hidden;
-      border-radius: 10px;
+      border-radius: 12px;
+      margin-bottom: 20px;
     }
 
     .video-wrapper iframe {
@@ -196,15 +191,43 @@
       border: 0;
     }
 
+    /* INSTAGRAM REELS */
+    .insta-section {
+      max-width: 900px;
+      margin: 30px auto 0;
+      background: rgb(20,20,20);
+      padding: 20px;
+      border-radius: 12px;
+      text-align: left;
+    }
+
+    .insta-section h2 {
+      font-size: 22px;
+      margin-bottom: 15px;
+    }
+
+    .insta-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+
+    .insta-wrapper iframe {
+      width: 100%;
+      border: 0;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
     footer {
       margin-top: 40px;
       font-size: 14px;
       color: #888;
     }
 
-    @media (max-width: 700px) {
+    @media(max-width:700px){
       .galeri-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2,1fr);
       }
       .galeri-grid img {
         height: 120px;
@@ -219,7 +242,8 @@
   <div class="kapak"></div>
 
   <div class="content">
-    
+
+    <!-- BAŞLIK + KISA TANIM -->
     <h1>Yusuf Emre Yalçın</h1>
 
     <p class="desc">
@@ -227,14 +251,14 @@
       Türk halk müziğini modern yorumlarla genç kuşağa taşıyor.
     </p>
 
-    <!-- SOSYAL MEDYA -->
+    <!-- SOSYAL MEDYA BUTONLARI -->
     <div class="buttons">
       <a class="button" href="https://www.instagram.com/yusufemreyalciin" target="_blank">Instagram</a>
       <a class="button" href="https://youtube.com/@yusufemreyalcin?si=zi2NIPtvMrCGgxXN" target="_blank">YouTube</a>
       <a class="button" href="https://www.tiktok.com" target="_blank">TikTok</a>
     </div>
 
-    <!-- BİYOGRAFİ - GELİŞTİRİLMİŞ -->
+    <!-- BİYOGRAFİ -->
     <div class="bio">
       <h2>Hakkında</h2>
       <p>
@@ -293,7 +317,7 @@
     <div class="galeri">
       <h2>Foto Galeri</h2>
       <div class="galeri-grid">
-        <img src="file_000000006cf871f4a142403afc8937b4.png" alt="Yusuf Emre Yalçın - Kapak Fotoğrafı">
+        <img src="file_000000006cf871f4a142403afc8937b4.png" alt="Yusuf Emre Yalçın Kapak Fotoğrafı">
         <img src="yusufemreyalcin.jpg" alt="Yusuf Emre Yalçın Profil Fotoğrafı">
         <img src="9903800866169421583.jpeg" alt="Yusuf Emre Yalçın Fotoğraf 1">
         <img src="9903800866169421583 (1).jpeg" alt="Yusuf Emre Yalçın Fotoğraf 2">
@@ -301,34 +325,88 @@
       </div>
     </div>
 
-    <!-- VİDEOLAR -->
+    <!-- YOUTUBE VİDEOLARI -->
     <div class="video-section">
-      <h2>Videolar</h2>
-      <p>
-        Yusuf Emre Yalçın’ın kabak kemane performanslarından seçilmiş videolar.
-      </p>
+      <h2>YouTube Videoları</h2>
+      <p>Yusuf Emre Yalçın’ın kabak kemane performanslarından seçilmiş videolar.</p>
 
-      <div class="video-grid">
-        <!-- 1. Video -->
-        <div class="video-wrapper">
+      <div class="video-wrapper">
+        <iframe 
+          src="https://www.youtube.com/embed/ygvqhc3CUHk"
+          title="Yusuf Emre Yalçın video 1"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <div class="video-wrapper">
+        <iframe 
+          src="https://www.youtube.com/embed/t6IYIFCT7WQ"
+          title="Yusuf Emre Yalçın video 2"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <div class="video-wrapper">
+        <iframe 
+          src="https://www.youtube.com/embed/CgTA_3fiMvM"
+          title="Yusuf Emre Yalçın video 3"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <div class="video-wrapper">
+        <iframe 
+          src="https://www.youtube.com/embed/yXQkpkZmDRc"
+          title="Yusuf Emre Yalçın video 4"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+
+    <!-- INSTAGRAM REELS -->
+    <div class="insta-section">
+      <h2>Instagram Reels</h2>
+
+      <div class="insta-grid">
+        <div class="insta-wrapper">
           <iframe 
-            src="https://www.youtube.com/embed/B0F3PMJiAd0"
-            title="Yusuf Emre Yalçın video"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen>
+            src="https://www.instagram.com/reel/DRaLYkgiKtC/embed"
+            height="460"
+            scrolling="no"
+            allowtransparency="true">
           </iframe>
         </div>
 
-        <!-- Yeni video eklemek istersen, aşağıdaki bloğu kopyalayıp VIDEO_ID kısmını değiştirmen yeterli
-        <div class="video-wrapper">
+        <div class="insta-wrapper">
           <iframe 
-            src="https://www.youtube.com/embed/VIDEO_ID"
-            title="Yusuf Emre Yalçın video"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen>
+            src="https://www.instagram.com/reel/DQmNkeEDO-P/embed"
+            height="460"
+            scrolling="no"
+            allowtransparency="true">
           </iframe>
         </div>
-        -->
+
+        <div class="insta-wrapper">
+          <iframe 
+            src="https://www.instagram.com/reel/DHBpvzniI-_/embed"
+            height="460"
+            scrolling="no"
+            allowtransparency="true">
+          </iframe>
+        </div>
+
+        <div class="insta-wrapper">
+          <iframe 
+            src="https://www.instagram.com/reel/DEB4mJ8iyNM/embed"
+            height="460"
+            scrolling="no"
+            allowtransparency="true">
+          </iframe>
+        </div>
       </div>
     </div>
 
