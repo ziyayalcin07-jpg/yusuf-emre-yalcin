@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <!-- Temel Ayarlar -->
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>Yusuf Emre Yalçın | Kabak Kemane Sanatçısı</title>
 
   <!-- SEO Meta -->
@@ -18,13 +19,16 @@
   <meta property="og:title" content="Yusuf Emre Yalçın | Kabak Kemane Sanatçısı">
   <meta property="og:description" content="Antalya doğumlu kabak kemane sanatçısı Yusuf Emre Yalçın hakkında bilgiler, videolar ve sosyal medya bağlantıları.">
   <meta property="og:url" content="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/">
-  <meta property="og:image" content="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/9903800866169421583.jpeg">
+  <meta property="og:image" content="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/9903800866169421583.jpeg?v=2">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Yusuf Emre Yalçın | Kabak Kemane Sanatçısı">
   <meta name="twitter:description" content="Türk halk müziğini genç kuşağa aktaran kabak kemane sanatçısı Yusuf Emre Yalçın.">
-  <meta name="twitter:image" content="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/9903800866169421583.jpeg">
+  <meta name="twitter:image" content="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/9903800866169421583.jpeg?v=2">
 
   <!-- Yapılandırılmış Veri (JSON-LD) -->
   <script type="application/ld+json">
@@ -44,7 +48,7 @@
   }
   </script>
 
-  <!-- Google Analytics (GA4) - Senin ID’in -->
+  <!-- Google Analytics (GA4) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-M71E41PBWZ"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -177,21 +181,14 @@
 </head>
 <body>
   <header>
-    <!-- Kapak görseli (istersen değiştir) -->
-    <img
-      class="banner"
-      src="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/file_000000006cf871f4a142403afc8937b4.png"
-      alt="Yusuf Emre Yalçın - Kabak Kemanenin Genç Sesi">
+    <img class="banner" src="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/file_000000006cf871f4a142403afc8937b4.png" alt="Yusuf Emre Yalçın - Kabak Kemanenin Genç Sesi">
   </header>
 
   <main>
     <div class="card">
       <div class="cover"></div>
       <div style="text-align:center;">
-        <img
-          src="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/9903800866169421583.jpeg"
-          alt="Kabak kemane sanatçısı Yusuf Emre Yalçın"
-          class="profile-img">
+        <img src="https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/9903800866169421583.jpeg" alt="Kabak kemane sanatçısı Yusuf Emre Yalçın" class="profile-img">
       </div>
       <div class="content">
         <h1>Yusuf Emre Yalçın</h1>
@@ -215,11 +212,7 @@
 
         <section id="video" class="video-section block">
           <h2>🎬 Performans Videosu</h2>
-          <iframe
-            src="https://www.youtube.com/embed/Yjr1UJgogac"
-            title="Yusuf Emre Yalçın Kabak Kemane Performansı"
-            allowfullscreen>
-          </iframe>
+          <iframe src="https://www.youtube.com/embed/Yjr1UJgogac" title="Yusuf Emre Yalçın Kabak Kemane Performansı" allowfullscreen></iframe>
         </section>
 
         <section id="baglantilar" class="block">
