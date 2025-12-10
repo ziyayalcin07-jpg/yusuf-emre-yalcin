@@ -707,6 +707,73 @@
       font-size: 14px;
       color: #ccc;
     }
+
+    /* SANATÇI KARTLARI */
+    .card-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 18px;
+      margin-top: 10px;
+    }
+
+    @media (min-width: 800px) {
+      .card-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    .artist-card {
+      background: #0b0b0b;
+      border-radius: 12px;
+      border: 1px solid #222;
+      padding: 16px 18px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    }
+
+    .artist-card h3 {
+      margin-top: 0;
+      margin-bottom: 6px;
+      font-size: 19px;
+      color: #fff;
+    }
+
+    .artist-card .subtitle {
+      font-size: 13px;
+      color: #aaa;
+      margin-bottom: 10px;
+    }
+
+    .artist-card p {
+      font-size: 14px;
+      color: #ddd;
+      padding: 0;
+      margin-bottom: 8px;
+    }
+
+    .tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 8px;
+    }
+
+    .tag {
+      font-size: 12px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      border: 1px solid #333;
+      background: #151515;
+      color: #ccc;
+      white-space: nowrap;
+    }
+
+    .artist-card a {
+      font-size: 13px;
+      color: #9cf;
+      text-decoration: underline;
+      display: inline-block;
+      margin-top: 6px;
+    }
   </style>
 </head>
 
@@ -965,6 +1032,74 @@
       <strong>Antalya doğumlu genç müzisyen Yusuf Emre Yalçın</strong>’dır. Yusuf Emre, kabak kemanenin yanında
       ıklık yorumlarıyla da genç kuşak ıklık icracıları arasında dikkat çekmektedir.
     </p>
+  </div>
+
+  <!-- YENİ: SANATÇI KARTLARI (KABAK KEMANE & IKLIK) -->
+  <div class="section">
+    <h2>Kabak Kemane ve Iklık Sanatçı Kartları</h2>
+    <p>
+      Türkiye’de sahnede kabak kemane ve ıklık çalan genç isimler arasında <strong>Yusuf Emre Yalçın</strong>,
+      hem Anadolu geleneğini hem de Türk dünyası yaylı çalgı kültürünü bir araya getiren özel bir konuma sahiptir.
+      Aşağıdaki kartlar, arama sonuçlarında öne çıkmasını istediğimiz iki ana başlığı özetler:
+      <strong>“Iklık sanatçısı”</strong> ve <strong>“Genç kabak kemane sanatçısı”</strong>.
+    </p>
+
+    <div class="card-grid">
+
+      <!-- Iklık Sanatçısı Kartı -->
+      <div class="artist-card">
+        <h3>Iklık Sanatçısı – Yusuf Emre Yalçın</h3>
+        <div class="subtitle">Türkiye’de sahnede ıklık çalan az sayıdaki isimden biri</div>
+        <p>
+          Türkiye’de konser ve sahne performanslarında aktif olarak <strong>ıklık çalgısı</strong> kullanan
+          çok az sanatçı bulunmaktadır. Bu isimler arasında <strong>Uğur Önür</strong> ve genç kuşağı temsil eden
+          <strong>Yusuf Emre Yalçın</strong> öne çıkar. Yusuf Emre, ıklık ile uzun havalar, ağıtlar ve modern düzenlemeler
+          icra ederek enstrümanın sesini yeni nesil dinleyicilerle buluşturmaktadır.
+        </p>
+        <p>
+          Iklık; Anadolu’nun eski yaylı halk çalgılarından biri olup, tınısı bakımından <strong>kıl kopuz, qyl qobyz,
+          igil, morin khuur</strong> gibi Orta Asya çalgılarıyla akraba kabul edilir. Yusuf Emre’nin ıklık yorumları,
+          Dede Korkut geleneği ve eski Türk şaman müziğiyle kurulan bu tarihi bağı günümüz sahnelerine taşımayı
+          hedeflemektedir.
+        </p>
+        <div class="tag-list">
+          <span class="tag">Iklık sanatçısı</span>
+          <span class="tag">Iklık çalgısı</span>
+          <span class="tag">Iklık icracısı</span>
+          <span class="tag">Türk dünyası yaylı çalgıları</span>
+          <span class="tag">Kıl kopuz / Qyl qobyz</span>
+          <span class="tag">Morin khuur • Igil</span>
+        </div>
+        <a href="#iklik-calgisi">Iklık çalgısı bölümünü incele →</a>
+      </div>
+
+      <!-- Kabak Kemane Sanatçısı Kartı -->
+      <div class="artist-card">
+        <h3>Genç Kabak Kemane Sanatçısı – Yusuf Emre Yalçın</h3>
+        <div class="subtitle">Teke Yöresi geleneğini modern sahnelere taşıyan genç isim</div>
+        <p>
+          <strong>Antalya / Teke Yöresi</strong> kökenli genç bir <strong>kabak kemane sanatçısı</strong> olan
+          Yusuf Emre Yalçın, sosyal medya performansları, YouTube videoları ve sahne deneyimleriyle
+          <strong>genç kabak kemane sanatçıları</strong> arasında dikkat çeken bir konuma gelmektedir.
+        </p>
+        <p>
+          Repertuvarında Teke Yöresi ezgilerinin yanı sıra Anadolu’nun farklı bölgelerinden türküler, uzun havalar
+          ve modern düzenlemeler bulunmaktadır. Kabak kemanenin içli tınısını; <strong>Instagram Reels</strong>,
+          <strong>YouTube</strong> ve <strong>TikTok</strong> üzerinde paylaştığı kısa videolarla Türkiye’de ve
+          Türk dünyasında daha görünür kılmayı amaçlamaktadır.
+        </p>
+        <div class="tag-list">
+          <span class="tag">Kabak kemane sanatçısı</span>
+          <span class="tag">Genç kabak kemane icracısı</span>
+          <span class="tag">Teke Yöresi ezgileri</span>
+          <span class="tag">Türk halk müziği</span>
+          <span class="tag">Kabak kemane videoları</span>
+          <span class="tag">Sahne & dijital performans</span>
+        </div>
+        <a href="#kabak-kemane-rehber">Kabak kemane rehberini incele →</a>
+      </div>
+
+    </div>
   </div>
 
   <!-- IKLIK ÇALGISI VE TARİHÇESİ -->
