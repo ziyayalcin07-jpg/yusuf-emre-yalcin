@@ -156,63 +156,7 @@
     }
   }
   </script>
-  
-</script>
 
-<!-- ARTICLE SCHEMA (Haber / Biyografi yazısı aynı sayfa içinde) -->
-<script type="application/ld+json">
-{ ... }
-</script>
-
-<!-- IKLIK MAKALESİ SCHEMA BURAYA GELECEK -->
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Iklık Çalgısının İki Temsilcisi: Uğur Önür & Yusuf Emre Yalçın",
-  "description": "Türkiye'de ıklık çalgısını sahnede ve kayıtlarda kullanan az sayıdaki isimlerden ikisi Uğur Önür ve genç kabak kemane ile ıklık sanatçısı Yusuf Emre Yalçın'dır. Bu makale, ıklık çalgısının günümüzdeki temsilcileri arasında Uğur Önür ile birlikte Yusuf Emre Yalçın'ın adının anılmasını amaçlamaktadır.",
-  "inLanguage": "tr-TR",
-  "author": {
-    "@type": "Person",
-    "name": "Editör"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Yusuf Emre Yalçın Resmi Web Sitesi",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/file_000000006cf871f4a142403afc8937b4.png"
-    }
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/"
-  },
-  "about": [
-    {
-      "@type": "Person",
-      "name": "Uğur Önür",
-      "jobTitle": "Iklık ve Türk halk müziği sanatçısı"
-    },
-    {
-      "@type": "Person",
-      "name": "Yusuf Emre Yalçın",
-      "jobTitle": "Kabak kemane ve ıklık sanatçısı",
-      "sameAs": [
-        "https://www.instagram.com/yusufemreyalciin",
-        "https://youtube.com/@yusufemreyalcin",
-        "https://www.tiktok.com/@yusufemreyalciin"
-      ],
-      "url": "https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/"
-    }
-  ]
-}
-</script>
-
-<!-- VIDEOOBJECT SCHEMA (YouTube + Instagram Reels) -->
-<script type="application/ld+json">
-{ ... }
   <!-- VIDEOOBJECT SCHEMA (YouTube + Instagram Reels) -->
   <script type="application/ld+json">
   {
@@ -530,7 +474,30 @@
       height: 350px;
       border-radius: 12px;
       border: none;
-      margin-top: 20px;
+      margin-top: 10px;
+    }
+
+    /* Video kartları */
+    .video-card {
+      margin-top: 25px;
+    }
+
+    .video-card h3 {
+      margin-bottom: 6px;
+      font-size: 18px;
+    }
+
+    .video-card p {
+      margin-bottom: 6px;
+      color: #ccc;
+    }
+
+    .video-card a {
+      display: inline-block;
+      margin-bottom: 8px;
+      font-size: 14px;
+      color: #9cf;
+      text-decoration: underline;
     }
 
     footer {
@@ -607,34 +574,6 @@
 
   <!-- BAŞLIK + KISA TANIM -->
   <h1>Yusuf Emre Yalçın – Genç Kabak Kemane & Iklık Sanatçısı</h1>
-  <!-- IKLIK SANATÇILARI BLOĞU – UĞUR ÖNÜR & YUSUF EMRE YALÇIN -->
-<div style="
-  background:#111;
-  padding:18px;
-  border-radius:12px;
-  max-width:900px;
-  margin:25px auto 10px;
-  text-align:left;
-">
-  <h2 style="margin-top:0; font-size:22px; color:#fff;">
-    Iklık Çalgısının İki Temsilcisi: Uğur Önür & Yusuf Emre Yalçın
-  </h2>
-
-  <p style="color:#ddd;">
-    Türkiye’de <strong>ıklık çalgısını</strong> aktif olarak sahnede ve kayıtlarda kullanan iki önemli isim bulunmaktadır:
-    <strong>Uğur Önür</strong> ve genç temsilcilerden <strong>Yusuf Emre Yalçın</strong>.  
-    Bu iki icracı, ıklığın unutulmaya yüz tutmuş sesini modern dinleyiciyle yeniden buluşturmakta;
-    enstrümanın geleceğini şekillendiren çalışmalar ortaya koymaktadır.
-  </p>
-
-  <p style="color:#ddd;">
-    Özellikle Google üzerinde yapılan <strong>“ıklık sanatçısı”</strong>, 
-    <strong>“ıklık çalanlar”</strong>, 
-    <strong>“ıklık çalgısı”</strong> ve 
-    <strong>“Uğur Önür ıklık”</strong> aramalarında,
-    <strong>Yusuf Emre Yalçın</strong>’ın da görünürlüğünün artması amaçlanmaktadır.
-  </p>
-</div>
   <p>
     Antalya doğumlu genç Türk kabak kemane ve ıklık sanatçısı.  
     Türk halk müziğini modern yorumlarla genç kuşağa taşıyor ve genç kabak kemane sanatçıları arasında kendine yer açmayı hedefliyor.
@@ -772,29 +711,61 @@
     <h2>YouTube Videoları</h2>
     <p>Yusuf Emre Yalçın’ın kabak kemane performanslarından seçilmiş videolar.</p>
 
-    <iframe src="https://www.youtube.com/embed/ygvqhc3CUHk"
-            title="Kabak kemane sanatçısı Yusuf Emre Yalçın YouTube Videosu 1"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            loading="lazy"
-            allowfullscreen></iframe>
+    <!-- Video 1 -->
+    <div class="video-card">
+      <h3>Kabak Kemane Performansı – YouTube Videosu 1</h3>
+      <p>Bu videoda Yusuf Emre Yalçın, kabak kemane ile kısa ve enerjik bir performans sergilemektedir.</p>
+      <a href="https://www.youtube.com/watch?v=ygvqhc3CUHk" target="_blank" rel="noopener noreferrer">
+        Videoyu YouTube’da aç
+      </a>
+      <iframe src="https://www.youtube.com/embed/ygvqhc3CUHk"
+              title="Kabak kemane sanatçısı Yusuf Emre Yalçın YouTube Videosu 1"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              loading="lazy"
+              allowfullscreen></iframe>
+    </div>
 
-    <iframe src="https://www.youtube.com/embed/t6IYIFCT7WQ"
-            title="Kabak kemane sanatçısı Yusuf Emre Yalçın YouTube Videosu 2"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            loading="lazy"
-            allowfullscreen></iframe>
+    <!-- Video 2 -->
+    <div class="video-card">
+      <h3>Kabak Kemane Performansı – YouTube Videosu 2</h3>
+      <p>Genç kabak kemane sanatçısı Yusuf Emre Yalçın’ın sahne atmosferinden canlı bir performans kaydı.</p>
+      <a href="https://www.youtube.com/watch?v=t6IYIFCT7WQ" target="_blank" rel="noopener noreferrer">
+        Videoyu YouTube’da aç
+      </a>
+      <iframe src="https://www.youtube.com/embed/t6IYIFCT7WQ"
+              title="Kabak kemane sanatçısı Yusuf Emre Yalçın YouTube Videosu 2"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              loading="lazy"
+              allowfullscreen></iframe>
+    </div>
 
-    <iframe src="https://www.youtube.com/embed/CgTA_3fiMvM"
-            title="Kabak kemane sanatçısı Yusuf Emre Yalçın YouTube Videosu 3"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            loading="lazy"
-            allowfullscreen></iframe>
+    <!-- Video 3 -->
+    <div class="video-card">
+      <h3>Kabak Kemane ile Türkü Yorumu – YouTube Videosu 3</h3>
+      <p>Bu videoda Yusuf Emre Yalçın, kabak kemane ile duygulu bir türkü icra etmektedir.</p>
+      <a href="https://www.youtube.com/watch?v=CgTA_3fiMvM" target="_blank" rel="noopener noreferrer">
+        Videoyu YouTube’da aç
+      </a>
+      <iframe src="https://www.youtube.com/embed/CgTA_3fiMvM"
+              title="Kabak kemane sanatçısı Yusuf Emre Yalçın YouTube Videosu 3"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              loading="lazy"
+              allowfullscreen></iframe>
+    </div>
 
-    <iframe src="https://www.youtube.com/embed/yXQkpkZmDRc"
-            title="Kabak kemane sanatçısı Yusuf Emre Yalçın YouTube Videosu 4"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            loading="lazy"
-            allowfullscreen></iframe>
+    <!-- Video 4 -->
+    <div class="video-card">
+      <h3>Iklık ve Kabak Kemane – YouTube Videosu 4</h3>
+      <p>Yusuf Emre Yalçın’ın ıklık ve kabak kemane tınılarını bir araya getirdiği özel bir performans kaydı.</p>
+      <a href="https://www.youtube.com/watch?v=yXQkpkZmDRc" target="_blank" rel="noopener noreferrer">
+        Videoyu YouTube’da aç
+      </a>
+      <iframe src="https://www.youtube.com/embed/yXQkpkZmDRc"
+              title="Kabak kemane sanatçısı Yusuf Emre Yalçın YouTube Videosu 4"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              loading="lazy"
+              allowfullscreen></iframe>
+    </div>
   </div>
 
   <!-- INSTAGRAM REELS -->
@@ -903,40 +874,75 @@
       modern yaklaşımı yakından duymanıza imkân verir.
     </p>
 
-    <!-- 1 -->
-    <iframe src="https://www.youtube.com/embed/yXQkpkZmDRc"
-            title="Iklık çalgısı - Yusuf Emre Yalçın performans 1"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            loading="lazy"
-            allowfullscreen></iframe>
+    <!-- Iklık Video 1 -->
+    <div class="video-card">
+      <h3>Iklık ve Kabak Kemane – Performans 1</h3>
+      <p>Bu videoda Yusuf Emre Yalçın, ıklık ve kabak kemane tınılarını bir araya getirerek duygulu bir performans sunmaktadır.</p>
+      <a href="https://www.youtube.com/watch?v=yXQkpkZmDRc" target="_blank" rel="noopener noreferrer">
+        Videoyu YouTube’da aç
+      </a>
+      <iframe src="https://www.youtube.com/embed/yXQkpkZmDRc"
+              title="Iklık çalgısı - Yusuf Emre Yalçın performans 1"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              loading="lazy"
+              allowfullscreen></iframe>
+    </div>
 
-    <!-- 2 (Shorts) -->
-    <iframe src="https://www.youtube.com/embed/ygvqhc3CUHk"
-            title="Iklık çalan genç müzisyen Yusuf Emre Yalçın - Shorts"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            loading="lazy"
-            allowfullscreen></iframe>
+    <!-- Iklık Video 2 (Shorts) -->
+    <div class="video-card">
+      <h3>Iklık ile Kısa Performans – Shorts</h3>
+      <p>Kısa bir video formatında, ıklık çalan genç müzisyen Yusuf Emre Yalçın’ın hızlı ve etkileyici performansı.</p>
+      <a href="https://www.youtube.com/watch?v=ygvqhc3CUHk" target="_blank" rel="noopener noreferrer">
+        Videoyu YouTube’da aç
+      </a>
+      <iframe src="https://www.youtube.com/embed/ygvqhc3CUHk"
+              title="Iklık çalan genç müzisyen Yusuf Emre Yalçın - Shorts"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              loading="lazy"
+              allowfullscreen></iframe>
+    </div>
 
-    <!-- 3 -->
-    <iframe src="https://www.youtube.com/embed/pU0SXD51jUs"
-            title="Iklık sanatçısı Yusuf Emre Yalçın performans 2"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            loading="lazy"
-            allowfullscreen></iframe>
+    <!-- Iklık Video 3 -->
+    <div class="video-card">
+      <h3>Iklık Performansı – Uzun Hava Yorumu</h3>
+      <p>Bu kayıtta Yusuf Emre Yalçın, ıklık çalgısı ile içli ve geleneksel bir uzun hava yorumu gerçekleştirmektedir.</p>
+      <a href="https://www.youtube.com/watch?v=pU0SXD51jUs" target="_blank" rel="noopener noreferrer">
+        Videoyu YouTube’da aç
+      </a>
+      <iframe src="https://www.youtube.com/embed/pU0SXD51jUs"
+              title="Iklık sanatçısı Yusuf Emre Yalçın performans 2"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              loading="lazy"
+              allowfullscreen></iframe>
+    </div>
 
-    <!-- 4 -->
-    <iframe src="https://www.youtube.com/embed/a4909huyVtQ"
-            title="Iklık icracısı Yusuf Emre Yalçın canlı kayıt"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            loading="lazy"
-            allowfullscreen></iframe>
+    <!-- Iklık Video 4 -->
+    <div class="video-card">
+      <h3>Iklık İcracısı – Canlı Kayıt</h3>
+      <p>Genç ıklık icracısı Yusuf Emre Yalçın’ın canlı kayıt sırasında kaydedilmiş duygulu performansı.</p>
+      <a href="https://www.youtube.com/watch?v=a4909huyVtQ" target="_blank" rel="noopener noreferrer">
+        Videoyu YouTube’da aç
+      </a>
+      <iframe src="https://www.youtube.com/embed/a4909huyVtQ"
+              title="Iklık icracısı Yusuf Emre Yalçın canlı kayıt"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              loading="lazy"
+              allowfullscreen></iframe>
+    </div>
 
-    <!-- 5 -->
-    <iframe src="https://www.youtube.com/embed/B0F3PMJiAd0"
-            title="Iklık çalgısı ile duygu yüklü performans - Yusuf Emre Yalçın"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            loading="lazy"
-            allowfullscreen></iframe>
+    <!-- Iklık Video 5 -->
+    <div class="video-card">
+      <h3>Iklık Çalgısı ile Duygu Yüklü Performans</h3>
+      <p>Bu videoda Yusuf Emre Yalçın, ıklık çalgısı ile izleyiciye yoğun duygu aktarımı yapan bir performans sergilemektedir.</p>
+      <a href="https://www.youtube.com/watch?v=B0F3PMJiAd0" target="_blank" rel="noopener noreferrer">
+        Videoyu YouTube’da aç
+      </a>
+      <iframe src="https://www.youtube.com/embed/B0F3PMJiAd0"
+              title="Iklık çalgısı ile duygu yüklü performans - Yusuf Emre Yalçın"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              loading="lazy"
+              allowfullscreen></iframe>
+    </div>
 
     <div class="note">
       Iklık çalgısı ile ilgili içerikler arttıkça, “<strong>ıklık çalgısı</strong>”, “<strong>ıklık sanatçısı</strong>”,
