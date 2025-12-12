@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ziyayalcin07-jpg.github.io/yusuf-emre-yalcin/sitemap.xml
