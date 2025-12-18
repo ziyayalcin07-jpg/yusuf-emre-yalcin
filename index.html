@@ -14,9 +14,10 @@
   <!-- CANONICAL (YENİ DOMAIN) -->
   <link rel="canonical" href="https://yusufemreyalcin.com.tr/" />
 
-  <!-- Preconnect -->
+  <!-- Preconnect (hafif hız + embed sinyali) -->
   <link rel="preconnect" href="https://www.youtube.com" />
   <link rel="preconnect" href="https://i.ytimg.com" />
+  <link rel="preconnect" href="https://www.google.com" />
   <link rel="preconnect" href="https://www.instagram.com" />
   <link rel="preconnect" href="https://www.facebook.com" />
   <link rel="preconnect" href="https://www.trt1.com.tr" />
@@ -34,11 +35,18 @@
   <meta property="og:site_name" content="Yusuf Emre Yalçın Resmi Web Sitesi" />
   <meta property="og:locale" content="tr_TR" />
 
+  <!-- OG Video (öne çıkan video sinyali) -->
+  <meta property="og:video" content="https://www.youtube.com/embed/1U6mj_hWvmU" />
+  <meta property="og:video:type" content="text/html" />
+  <meta property="og:video:width" content="1280" />
+  <meta property="og:video:height" content="720" />
+
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Yusuf Emre Yalçın | Genç Kabak Kemane ve Iklık Sanatçısı (Resmî Web Sitesi)" />
   <meta name="twitter:description" content="TRT, radyo, konser ve medya bağlantıları; videolar ve fotoğraflar." />
   <meta name="twitter:image" content="https://yusufemreyalcin.com.tr/file_000000006cf871f4a142403afc8937b4.png" />
+  <meta name="twitter:player" content="https://www.youtube.com/embed/1U6mj_hWvmU" />
 
   <!-- Sosyal profil bağlantıları (Google için) -->
   <link rel="me" href="https://www.instagram.com/yusufemreyalciin" />
@@ -48,6 +56,7 @@
   <!-- ========================= -->
   <!-- STRUCTURED DATA (YENİ DOMAIN) -->
   <!-- ========================= -->
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -72,10 +81,7 @@
     "name": "Yusuf Emre Yalçın",
     "alternateName": ["Yusuf Emre Yalcin"],
     "birthDate": "2005-01-01",
-    "birthPlace": {
-      "@type": "Place",
-      "name": "Antalya, Türkiye"
-    },
+    "birthPlace": { "@type": "Place", "name": "Antalya, Türkiye" },
     "jobTitle": "Kabak Kemane ve Iklık Sanatçısı",
     "image": "https://yusufemreyalcin.com.tr/file_000000006cf871f4a142403afc8937b4.png",
     "url": "https://yusufemreyalcin.com.tr/",
@@ -85,16 +91,8 @@
       "https://www.tiktok.com/@yusufemreyalciin"
     ],
     "subjectOf": [
-      {
-        "@type": "CreativeWork",
-        "name": "TRT 1 - Alişan ile Hayata Gülümse (771. Bölüm)",
-        "url": "https://www.trt1.com.tr/programlar/alisan-ile-hayata-gulumse/bolum/771-bolum"
-      },
-      {
-        "@type": "NewsArticle",
-        "headline": "TRT Antalya THM Çocuk ve Gençlik korolarından yıl sonu konseri",
-        "url": "https://www.akdenizgercek.com.tr/antalya/trt-antalya-thm-cocuk-ve-genclik-korolarindan-yil-sonu-konseri-124957h"
-      }
+      { "@type": "CreativeWork", "name": "TRT 1 - Alişan ile Hayata Gülümse (771. Bölüm)", "url": "https://www.trt1.com.tr/programlar/alisan-ile-hayata-gulumse/bolum/771-bolum" },
+      { "@type": "NewsArticle", "headline": "TRT Antalya THM Çocuk ve Gençlik korolarından yıl sonu konseri", "url": "https://www.akdenizgercek.com.tr/antalya/trt-antalya-thm-cocuk-ve-genclik-korolarindan-yil-sonu-konseri-124957h" }
     ]
   }
   </script>
@@ -109,14 +107,32 @@
     "inLanguage": "tr-TR",
     "isPartOf": { "@id": "https://yusufemreyalcin.com.tr/#website" },
     "about": { "@id": "https://yusufemreyalcin.com.tr/#person" },
-    "primaryImageOfPage": {
-      "@type": "ImageObject",
-      "url": "https://yusufemreyalcin.com.tr/file_000000006cf871f4a142403afc8937b4.png"
-    }
+    "primaryImageOfPage": { "@type": "ImageObject", "url": "https://yusufemreyalcin.com.tr/file_000000006cf871f4a142403afc8937b4.png" }
   }
   </script>
 
-  <!-- Basında/Medya kaynak listesi (Google'a sinyal) -->
+  <!-- FAQ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "@id": "https://yusufemreyalcin.com.tr/#faq",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Kabak kemane sanatçısı kimdir?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Kabak kemane sanatçısı, kabak kemaneyi icra eden müzisyendir. Yusuf Emre Yalçın Antalya doğumlu genç bir kabak kemane sanatçısıdır." }
+      },
+      {
+        "@type": "Question",
+        "name": "Iklık sanatçısı kimdir?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Iklık sanatçısı, ıklık çalgısını icra eden müzisyendir. Yusuf Emre Yalçın kabak kemanenin yanında ıklık ile de performanslar yapmaktadır." }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Medya/Press listesi: Google'a net sinyal -->
   <script type="application/ld+json">
   {
     "@context":"https://schema.org",
@@ -132,12 +148,34 @@
       { "@type":"ListItem", "position":4, "url":"https://www.nehir.net/amp/haber/21417081/korkutelinin-geleneksel-gures-ve-senlikleri-cosku-ile-basladi" },
       { "@type":"ListItem", "position":5, "url":"https://www.ahajans.com.tr/amp/korkuteli-33-altin-kiraz-yagli-pehlivan-guresleri-ve-sehzade-korkut-senlikleri-basladi-4570" },
       { "@type":"ListItem", "position":6, "url":"https://www.antalyaekspres.com.tr/aksde-muzik-dinletisi/amp" },
-      { "@type":"ListItem", "position":7, "url":"https://youtu.be/4S5kwgJ2p5M?si=NTn5n8mxFl8j9r1W" }
+      { "@type":"ListItem", "position":7, "url":"https://www.youtube.com/watch?v=4S5kwgJ2p5M" }
     ]
   }
   </script>
 
-  <!-- CSS (Mevcut tasarım korunuyor) -->
+  <!-- ============ ESKİ VIDEO JSON-LD’LERİNİ KORUDUM ============ -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"ItemList",
+    "@id":"https://yusufemreyalcin.com.tr/#videolist",
+    "name":"Yusuf Emre Yalçın Videoları",
+    "itemListOrder":"https://schema.org/ItemListOrderAscending",
+    "numberOfItems":8,
+    "itemListElement":[
+      { "@type":"ListItem","position":1,"url":"https://www.youtube.com/watch?v=ygvqhc3CUHk" },
+      { "@type":"ListItem","position":2,"url":"https://www.youtube.com/watch?v=XgW5fikhx5Q" },
+      { "@type":"ListItem","position":3,"url":"https://www.youtube.com/watch?v=t6IYIFCT7WQ" },
+      { "@type":"ListItem","position":4,"url":"https://www.youtube.com/watch?v=CgTA_3fiMvM" },
+      { "@type":"ListItem","position":5,"url":"https://www.youtube.com/watch?v=yXQkpkZmDRc" },
+      { "@type":"ListItem","position":6,"url":"https://www.youtube.com/watch?v=pU0SXD51jUs" },
+      { "@type":"ListItem","position":7,"url":"https://www.youtube.com/watch?v=a4909huyVtQ" },
+      { "@type":"ListItem","position":8,"url":"https://www.youtube.com/watch?v=B0F3PMJiAd0" }
+    ]
+  }
+  </script>
+
+  <!-- CSS (ESKİ CSS’in aynısı + basın kartları için uyumlu) -->
   <style>
     body { margin: 0; background: #000; color: #fff; font-family: Arial, sans-serif; text-align: center; }
     img { width: 100%; border-radius: 0; display: block; }
@@ -147,6 +185,7 @@
 
     .buttons { margin-top: 25px; display: grid; grid-template-columns: 1fr; gap: 12px; max-width: 700px; margin-left: auto; margin-right: auto; }
     @media (min-width: 600px) { .buttons { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
     .btn { border: 1px solid #fff; padding: 12px 20px; border-radius: 20px; font-size: 16px; color: #fff; text-decoration: none; transition: 0.2s; display: block; width: 100%; max-width: 260px; margin: 0 auto; box-sizing: border-box; }
     .btn:hover { background: #fff; color: #000; }
 
@@ -159,7 +198,6 @@
 
     .gallery-grid { display: grid; grid-template-columns: 1fr; gap: 15px; margin-top: 15px; }
     .gallery-grid img { border-radius: 12px; }
-    @media (min-width: 700px) { .gallery-grid { grid-template-columns: repeat(3, 1fr); } }
 
     iframe { width: 100%; height: 350px; border-radius: 12px; border: none; margin-top: 10px; }
 
@@ -170,15 +208,20 @@
 
     footer { text-align: center; color: #888; font-size: 14px; margin: 40px 0 20px; }
 
+    @media (min-width: 700px) { .gallery-grid { grid-template-columns: repeat(3, 1fr); } }
+
     .section h3 { margin-top: 15px; font-size: 18px; }
     .section ul { margin-top: 8px; padding-left: 20px; }
     .section li { margin-bottom: 6px; }
 
     .note { margin-top: 10px; padding: 10px; border-radius: 10px; background: #0b0b0b; border: 1px solid #222; color: #ccc; font-size: 14px; }
+
+    .iklik-photo { margin-top: 20px; text-align: center; }
+    .iklik-photo img { max-width: 420px; width: 100%; border-radius: 12px; display: inline-block; }
+
     .meta-small { font-size: 13px; color: #aaa; margin-bottom: 10px; }
     .highlight-box { border-left: 3px solid #e0e0e0; padding-left: 10px; margin: 15px 0; font-size: 14px; color: #ccc; }
 
-    /* Kartlar (mevcut yapı korunuyor) */
     .card-grid { display: grid; grid-template-columns: 1fr; gap: 18px; margin-top: 10px; }
     @media (min-width: 800px) { .card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 
@@ -202,13 +245,13 @@
   <h1>Yusuf Emre Yalçın – Genç Kabak Kemane & Iklık Sanatçısı</h1>
   <p>
     Antalya doğumlu genç Türk kabak kemane ve ıklık sanatçısı.
-    Türk halk müziğini modern yorumlarla genç kuşağa taşıyor.
+    Türk halk müziğini modern yorumlarla genç kuşağa taşıyor ve genç kabak kemane sanatçıları arasında kendine yer açmayı hedefliyor.
   </p>
 
-  <!-- ÖNE ÇIKAN KISA VİDEO (ANA VİDEO) -->
+  <!-- ÖNE ÇIKAN KISA VİDEO (TRT PROGRAM VİDEOSU) -->
   <div class="section">
-    <h2>Öne Çıkan Video</h2>
-    <p>TRT program videosu (YouTube).</p>
+    <h2>Öne Çıkan Video (TRT Program Kaydı)</h2>
+    <p>TRT programından YouTube’a yüklenen video kaydı.</p>
     <iframe src="https://www.youtube.com/embed/1U6mj_hWvmU"
             title="Yusuf Emre Yalçın - TRT program videosu"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -220,45 +263,45 @@
     </p>
   </div>
 
-  <!-- BUTONLAR -->
+  <!-- SOSYAL MEDYA BUTONLARI -->
   <div class="buttons">
-    <a class="btn" href="#basinda">Basında / TRT / Radyo</a>
-    <a class="btn" href="#videolar">Videolar</a>
-    <a class="btn" href="#galeri">Foto Galeri</a>
-    <a class="btn" href="#haber-biyografi">Biyografi</a>
+    <a class="btn" href="#basinda-trt">Basında / TRT / Radyo</a>
+    <a class="btn" href="#kabak-kemane-rehber">Kabak Kemane Rehberi</a>
+    <a class="btn" href="#iklik-calgisi">Iklık Çalgısı ve Tarihçesi</a>
+    <a class="btn" href="#haber-biyografi">Haber & Biyografi Yazısı</a>
 
     <a class="btn" href="https://www.instagram.com/yusufemreyalciin" target="_blank" rel="noopener noreferrer">Instagram</a>
     <a class="btn" href="https://youtube.com/@yusufemreyalcin" target="_blank" rel="noopener noreferrer">YouTube</a>
     <a class="btn" href="https://www.tiktok.com/@yusufemreyalciin" target="_blank" rel="noopener noreferrer">TikTok</a>
 
     <a class="btn" href="https://youtu.be/4S5kwgJ2p5M?si=NTn5n8mxFl8j9r1W" target="_blank" rel="noopener noreferrer">Uğur Önür ile Video</a>
-    <a class="btn" href="https://www.facebook.com/share/v/1CvBhhk2Kt/" target="_blank" rel="noopener noreferrer">Facebook Video</a>
+
     <a class="btn" href="https://www.facebook.com/share/p/1FhSmnYccd/" target="_blank" rel="noopener noreferrer">Facebook Paylaşım</a>
+    <a class="btn" href="https://www.facebook.com/share/v/1CvBhhk2Kt/" target="_blank" rel="noopener noreferrer">Facebook Video</a>
+
+    <a class="btn" href="https://x.com/Yusuf3mre?t=DSibfOJb-nxYcGZdwFyqQw&s=09" target="_blank" rel="noopener noreferrer">Twitter (X) Profil</a>
+    <a class="btn" href="https://x.com/Yusuf3mre/status/1760618102859956347?t=M8hMwTg7dddCwrCk0Jr3Hg&s=19" target="_blank" rel="noopener noreferrer">Twitter (X) Gönderi</a>
   </div>
 
-  <!-- ========================= -->
-  <!-- BASINDA / TRT / RADYO / HABERLER -->
-  <!-- ========================= -->
-  <div class="section" id="basinda">
-    <h2>Basında / TRT / Radyo / Haberler</h2>
+  <!-- ✅ YENİ: BASINDA / TRT / RADYO / HABERLER -->
+  <div class="section" id="basinda-trt">
+    <h2>Basında / TRT / TRT Radyo / Haberler</h2>
     <p class="meta-small">
-      Bu bölümde, Yusuf Emre Yalçın’ın TRT televizyonu, TRT radyo yayınları ve basında yer aldığı doğrulanabilir bağlantılar bulunur.
+      Bu bölüm, Yusuf Emre Yalçın’ın TRT televizyonu, TRT radyo yayınları ve basında yer aldığı doğrulanabilir bağlantıları içerir.
     </p>
 
     <div class="card-grid">
 
-      <!-- TRT 1 -->
       <div class="artist-card">
         <h3>TRT 1 – Alişan ile Hayata Gülümse (771. Bölüm)</h3>
         <div class="subtitle">TRT 1 resmî bölüm sayfası</div>
-        <p>TRT 1 program sayfası üzerinden bölüm bilgisi ve yayın detayı.</p>
+        <p>TRT 1 program sayfası üzerinden bölüm ve yayın bilgisi.</p>
         <div class="tag-list">
           <span class="tag">TRT 1</span><span class="tag">TV</span><span class="tag">Program</span>
         </div>
         <a href="https://www.trt1.com.tr/programlar/alisan-ile-hayata-gulumse/bolum/771-bolum" target="_blank" rel="noopener noreferrer">TRT 1 sayfasını aç →</a>
       </div>
 
-      <!-- TRT Radyo -->
       <div class="artist-card">
         <h3>TRT Radyo – TRT Dinle</h3>
         <div class="subtitle">Radyo yayınları ve programlar</div>
@@ -267,62 +310,55 @@
           <span class="tag">TRT</span><span class="tag">Radyo</span><span class="tag">TRT Dinle</span>
         </div>
         <a href="https://www.trtdinle.com/" target="_blank" rel="noopener noreferrer">TRT Dinle sayfasını aç →</a>
-        <a href="https://www.google.com/search?q=trt+Antalya+radyosu+Yusuf+Emre+Yal%C3%A7%C4%B1n" target="_blank" rel="noopener noreferrer">Google arama sonucu (kanıt için) →</a>
+        <a href="https://www.google.com/search?q=trt+Antalya+radyosu+Yusuf+Emre+Yal%C3%A7%C4%B1n" target="_blank" rel="noopener noreferrer">TRT Antalya Radyosu araması (kanıt) →</a>
       </div>
 
-      <!-- Akdeniz Gerçek -->
       <div class="artist-card">
-        <h3>TRT Antalya THM Çocuk & Gençlik Koroları Konseri</h3>
-        <div class="subtitle">Haber kaynağı</div>
-        <p>TRT Antalya THM Çocuk ve Gençlik Koroları yıl sonu konseri hakkında haber bağlantısı.</p>
+        <h3>TRT Antalya – THM Çocuk & Gençlik Korosu Konseri</h3>
+        <div class="subtitle">Akdeniz Gerçek haberi</div>
+        <p>TRT Antalya THM Çocuk ve Gençlik Koroları yıl sonu konseri haber bağlantısı.</p>
         <div class="tag-list">
           <span class="tag">TRT Antalya</span><span class="tag">Konser</span><span class="tag">Haber</span>
         </div>
         <a href="https://www.akdenizgercek.com.tr/antalya/trt-antalya-thm-cocuk-ve-genclik-korolarindan-yil-sonu-konseri-124957h" target="_blank" rel="noopener noreferrer">Haberi aç →</a>
       </div>
 
-      <!-- Nehir -->
       <div class="artist-card">
-        <h3>Korkuteli – Geleneksel Güreş ve Şenlikler</h3>
-        <div class="subtitle">Nehir.net haber bağlantısı</div>
-        <p>Korkuteli geleneksel güreş ve şenlikleri hakkında haber.</p>
+        <h3>Korkuteli – Geleneksel Güreş ve Şenlikleri</h3>
+        <div class="subtitle">Nehir.net haberi</div>
+        <p>Korkuteli geleneksel güreş ve şenlikleri hakkında haber bağlantısı.</p>
         <div class="tag-list">
           <span class="tag">Korkuteli</span><span class="tag">Şenlik</span><span class="tag">Haber</span>
         </div>
         <a href="https://www.nehir.net/amp/haber/21417081/korkutelinin-geleneksel-gures-ve-senlikleri-cosku-ile-basladi" target="_blank" rel="noopener noreferrer">Haberi oku →</a>
       </div>
 
-      <!-- AHA Ajans -->
       <div class="artist-card">
         <h3>Korkuteli 33. Altın Kiraz – Yağlı Pehlivan Güreşleri</h3>
-        <div class="subtitle">AHA Ajans haber bağlantısı</div>
-        <p>Korkuteli etkinlikleri ve şenlikler hakkında haber.</p>
+        <div class="subtitle">AHA Ajans haberi</div>
+        <p>Korkuteli etkinliği hakkında haber bağlantısı.</p>
         <div class="tag-list">
-          <span class="tag">Korkuteli</span><span class="tag">Güreş</span><span class="tag">Haber</span>
+          <span class="tag">Güreş</span><span class="tag">Korkuteli</span><span class="tag">Haber</span>
         </div>
         <a href="https://www.ahajans.com.tr/amp/korkuteli-33-altin-kiraz-yagli-pehlivan-guresleri-ve-sehzade-korkut-senlikleri-basladi-4570" target="_blank" rel="noopener noreferrer">Haberi oku →</a>
       </div>
 
-      <!-- Antalya Ekspres -->
       <div class="artist-card">
-        <h3>AKS’de Müzik Dinletisi (Antalya)</h3>
-        <div class="subtitle">Antalya Ekspres haber bağlantısı</div>
-        <p>Antalya AKS’de müzik dinletisi hakkında haber.</p>
+        <h3>AKS’de Müzik Dinletisi – Antalya</h3>
+        <div class="subtitle">Antalya Ekspres haberi</div>
+        <p>AKS’de müzik dinletisi hakkında haber bağlantısı.</p>
         <div class="tag-list">
           <span class="tag">Antalya</span><span class="tag">AKS</span><span class="tag">Haber</span>
         </div>
         <a href="https://www.antalyaekspres.com.tr/aksde-muzik-dinletisi/amp" target="_blank" rel="noopener noreferrer">Haberi oku →</a>
       </div>
 
-      <!-- Uğur Önür ile iş birliği -->
       <div class="artist-card">
         <h3>Uğur Önür ile Birlikte Performans</h3>
         <div class="subtitle">İş birliği (video kanıt)</div>
-        <p>
-          Bu videoda Yusuf Emre Yalçın, usta müzisyen <strong>Uğur Önür</strong> ile birlikte sahnede kabak kemane performansı sergilemektedir.
-        </p>
+        <p>Bu videoda Yusuf Emre Yalçın, usta müzisyen <strong>Uğur Önür</strong> ile birlikte sahnede kabak kemane performansı sergilemektedir.</p>
         <div class="tag-list">
-          <span class="tag">İş birliği</span><span class="tag">Uğur Önür</span><span class="tag">Video</span>
+          <span class="tag">Uğur Önür</span><span class="tag">İş birliği</span><span class="tag">YouTube</span>
         </div>
         <a href="https://youtu.be/4S5kwgJ2p5M?si=NTn5n8mxFl8j9r1W" target="_blank" rel="noopener noreferrer">Videoyu aç →</a>
       </div>
@@ -334,54 +370,67 @@
     </div>
   </div>
 
-  <!-- ========================= -->
-  <!-- VİDEOLAR -->
-  <!-- ========================= -->
-  <div class="section" id="videolar">
-    <h2>Videolar</h2>
-    <p>Seçili YouTube videoları ve sosyal medya bağlantıları.</p>
-
-    <div class="video-card">
-      <h3>TRT Program Videosu (YouTube)</h3>
-      <a href="https://youtu.be/1U6mj_hWvmU" target="_blank" rel="noopener noreferrer">Videoyu YouTube’da aç</a>
-      <iframe src="https://www.youtube.com/embed/1U6mj_hWvmU"
-              title="Yusuf Emre Yalçın - TRT program videosu"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              loading="lazy"
-              allowfullscreen></iframe>
-      <p class="meta-small">Link: https://youtu.be/1U6mj_hWvmU</p>
-    </div>
-
-    <div class="video-card">
-      <h3>Uğur Önür ile Birlikte (YouTube)</h3>
-      <a href="https://youtu.be/4S5kwgJ2p5M?si=NTn5n8mxFl8j9r1W" target="_blank" rel="noopener noreferrer">Videoyu YouTube’da aç</a>
-      <iframe src="https://www.youtube.com/embed/4S5kwgJ2p5M"
-              title="Yusuf Emre Yalçın - Uğur Önür ile birlikte"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              loading="lazy"
-              allowfullscreen></iframe>
-      <p class="meta-small">Link: https://youtu.be/4S5kwgJ2p5M</p>
-    </div>
-
-    <div class="video-card">
-      <h3>Instagram Bağlantıları</h3>
-      <p class="meta-small">Instagram embed bazen cihaz/izin nedeniyle görünmeyebilir; linkler her zaman çalışır.</p>
-      <ul>
-        <li><a href="https://www.instagram.com/reel/DBRbC5AIe7o/?igsh=bzZiMHd6dXJ1ZHQ4" target="_blank" rel="noopener noreferrer">Instagram Reel 1</a></li>
-        <li><a href="https://www.instagram.com/tv/Cdkh39foVf6/?igsh=Yjk0Mnc0Y2Nkc2px" target="_blank" rel="noopener noreferrer">Instagram TV 1</a></li>
-        <li><a href="https://www.instagram.com/reel/C_fcbyyNY2h/?igsh=OHV5bXhheXhvMXlv" target="_blank" rel="noopener noreferrer">Instagram Reel 2</a></li>
-        <li><a href="https://www.instagram.com/tv/CsmPYf0qxje/?igsh=MWh1bnJvbTlrd2JmZg==" target="_blank" rel="noopener noreferrer">Instagram TV 2</a></li>
-        <li><a href="https://www.instagram.com/tv/CYKrH2WgjB3/?igsh=ejNkeDNuaGJ0dW95" target="_blank" rel="noopener noreferrer">Instagram TV 3</a></li>
-        <li><a href="https://www.instagram.com/reel/C5Qqw8rsk1X/?igsh=NHo1Zno1cjlhY2ll" target="_blank" rel="noopener noreferrer">Instagram Reel 3</a></li>
-        <li><a href="https://www.instagram.com/p/DBOdyejt88D/?img_index=1&igsh=MXR0OXNjemJlaHJ6aQ==" target="_blank" rel="noopener noreferrer">Instagram Post</a></li>
-      </ul>
-    </div>
+  <!-- GENÇ KABAK KEMANE SANATÇILARI ARASINDA YÜKSELEN BİR İSİM -->
+  <div class="section">
+    <h2>Genç Kabak Kemane Sanatçıları Arasında Yükselen Bir İsim: Yusuf Emre Yalçın</h2>
+    <p>
+      Türkiye’de kabak kemanenin özellikle genç kuşak tarafından yeniden ilgi görmeye başladığı bu dönemde,
+      öne çıkan isimlerden biri <strong>Yusuf Emre Yalçın</strong>’dır. Antalya doğumlu genç sanatçı,
+      kabak kemanenin içli ve karakteristik sesini modern yorumlarla birleştirerek hem kendi yaş grubunun
+      hem de geleneksel müzik severlerin dikkatini çekmeyi hedeflemektedir.
+    </p>
+    <p>
+      Repertuvarı; Teke Yöresi ezgilerinden uzun havalara, modern düzenlemelerden deneysel yorumlara kadar geniş bir yelpazeyi kapsar.
+      Onu diğer genç kabak kemane sanatçılarından ayıran en belirgin özellik, enstrümanı “duyguyu aktaran bir ses” olarak görmesi ve
+      her performansında içten bir ifade dilini ön planda tutmasıdır.
+    </p>
   </div>
 
-  <!-- ========================= -->
+  <!-- BİYOGRAFİ -->
+  <div class="section bio">
+    <h2>Hakkında</h2>
+    <p>
+      <strong>Yusuf Emre Yalçın</strong>, <strong>2005</strong> yılında Antalya’da doğan genç bir
+      <strong>kabak kemane ve ıklık sanatçısıdır</strong>. Küçük yaşlardan itibaren müziğe ve özellikle Türk halk
+      ezgilerine ilgi duymaya başlamıştır.
+    </p>
+
+    <h3>Sanatsal Yolculuğu</h3>
+    <p>
+      Yusuf Emre, kabak kemaneyi ve ıklık çalgısını yalnızca bir hobi olarak değil, duygularını ifade ettiği
+      enstrümanlar olarak görmektedir. Düzenli çalışmaları, sahne tecrübeleri ve provaları sayesinde hem teknik
+      hâkimiyetini hem de sahne duruşunu geliştirmeye devam etmektedir.
+    </p>
+
+    <h3>Tarzı ve Repertuvarı</h3>
+    <p>
+      Repertuvarında; Teke Yöresi başta olmak üzere Anadolu’nun farklı bölgelerinden türküler, uzun havalar ve
+      oyun havalarının yanı sıra modern düzenlemeler de yer almaktadır.
+    </p>
+
+    <h3>Sosyal Medya ve Dijital Platformlar</h3>
+    <p>
+      Performanslarını Instagram, YouTube ve diğer dijital platformlarda paylaşarak hem kendi yaşıtlarına
+      hem de geniş bir dinleyici kitlesine ulaşmayı hedeflemektedir.
+    </p>
+
+    <h3>Hedefleri</h3>
+    <p>
+      Kabak kemaneyi ve ıklık çalgısını Türkiye’de ve dünyada daha fazla insana tanıtmak,
+      Türk halk müziğini ise gelecek kuşaklara sevdirmek hedefleri arasındadır.
+    </p>
+
+    <h3>Kısa Özet</h3>
+    <ul>
+      <li>2005 doğumlu, Antalya’da yaşıyor.</li>
+      <li>Kabak kemane ve ıklık çalgısını düzenli çalışıyor.</li>
+      <li>Sosyal medya üzerinden dinleyicileriyle buluşuyor.</li>
+      <li>TRT / Radyo / Basın kanıtları “Basında” bölümünde listelenmiştir.</li>
+    </ul>
+  </div>
+
   <!-- FOTO GALERİ -->
-  <!-- ========================= -->
-  <div class="section" id="galeri">
+  <div class="section">
     <h2>Foto Galeri</h2>
     <div class="gallery-grid">
       <img src="9903800866169421583.jpeg" alt="Kabak kemane sanatçısı Yusuf Emre Yalçın Fotoğraf 1" loading="lazy" />
@@ -395,30 +444,277 @@
     </div>
   </div>
 
-  <!-- ========================= -->
-  <!-- HABER / BİYOGRAFİ -->
-  <!-- ========================= -->
-  <div class="section bio" id="haber-biyografi">
-    <h2>Hakkında</h2>
+  <!-- YOUTUBE VİDEOLARI -->
+  <div class="section">
+    <h2>YouTube Videoları</h2>
+    <p>Yusuf Emre Yalçın’ın kabak kemane ve ıklık performanslarından seçilmiş videolar.</p>
+
+    <div class="video-card">
+      <h3>TRT Program Videosu (YouTube)</h3>
+      <p>TRT program kaydı.</p>
+      <a href="https://youtu.be/1U6mj_hWvmU" target="_blank" rel="noopener noreferrer">Videoyu YouTube’da aç</a>
+      <iframe src="https://www.youtube.com/embed/1U6mj_hWvmU"
+              title="Yusuf Emre Yalçın TRT program videosu"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              loading="lazy" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-card">
+      <h3>Uğur Önür ile Birlikte (YouTube)</h3>
+      <p>Bu performans, usta müzisyen <strong>Uğur Önür</strong> ile birlikte sahnede gerçekleştirilmiştir.</p>
+      <a href="https://www.youtube.com/watch?v=4S5kwgJ2p5M" target="_blank" rel="noopener noreferrer">Videoyu YouTube’da aç</a>
+      <iframe src="https://www.youtube.com/embed/4S5kwgJ2p5M"
+              title="Yusuf Emre Yalçın ve Uğur Önür - Kabak Kemane"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              loading="lazy" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-card">
+      <h3>Kabak Kemane Konseri</h3>
+      <p>Konser kaydı: Yusuf Emre Yalçın’ın sahne performansından seçilmiş kayıt.</p>
+      <a href="https://www.youtube.com/watch?v=XgW5fikhx5Q" target="_blank" rel="noopener noreferrer">Videoyu YouTube’da aç</a>
+      <iframe src="https://www.youtube.com/embed/XgW5fikhx5Q"
+              title="Kabak Kemane Konseri - Yusuf Emre Yalçın"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              loading="lazy" allowfullscreen></iframe>
+    </div>
+
+    <!-- ESKİ LİSTEDEN 4 VİDEO (KORUNDU) -->
+    <div class="video-card">
+      <h3>YouTube Videosu</h3>
+      <a href="https://www.youtube.com/watch?v=ygvqhc3CUHk" target="_blank" rel="noopener noreferrer">Aç</a>
+      <iframe src="https://www.youtube.com/embed/ygvqhc3CUHk" title="Video" loading="lazy" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-card">
+      <h3>YouTube Videosu</h3>
+      <a href="https://www.youtube.com/watch?v=t6IYIFCT7WQ" target="_blank" rel="noopener noreferrer">Aç</a>
+      <iframe src="https://www.youtube.com/embed/t6IYIFCT7WQ" title="Video" loading="lazy" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-card">
+      <h3>YouTube Videosu</h3>
+      <a href="https://www.youtube.com/watch?v=CgTA_3fiMvM" target="_blank" rel="noopener noreferrer">Aç</a>
+      <iframe src="https://www.youtube.com/embed/CgTA_3fiMvM" title="Video" loading="lazy" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-card">
+      <h3>YouTube Videosu</h3>
+      <a href="https://www.youtube.com/watch?v=yXQkpkZmDRc" target="_blank" rel="noopener noreferrer">Aç</a>
+      <iframe src="https://www.youtube.com/embed/yXQkpkZmDRc" title="Video" loading="lazy" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <!-- INSTAGRAM REELS (ESKİ KISIM KORUNDU) -->
+  <div class="section">
+    <h2>Instagram Bağlantıları</h2>
+    <p class="meta-small">Bazı cihazlarda embed görünmeyebilir; linkler her zaman çalışır.</p>
+    <ul>
+      <li><a href="https://www.instagram.com/reel/DBRbC5AIe7o/?igsh=bzZiMHd6dXJ1ZHQ4" target="_blank" rel="noopener noreferrer">Instagram Reel</a></li>
+      <li><a href="https://www.instagram.com/tv/Cdkh39foVf6/?igsh=Yjk0Mnc0Y2Nkc2px" target="_blank" rel="noopener noreferrer">Instagram TV</a></li>
+      <li><a href="https://www.instagram.com/reel/C_fcbyyNY2h/?igsh=OHV5bXhheXhvMXlv" target="_blank" rel="noopener noreferrer">Instagram Reel</a></li>
+      <li><a href="https://www.instagram.com/tv/CsmPYf0qxje/?igsh=MWh1bnJvbTlrd2JmZg==" target="_blank" rel="noopener noreferrer">Instagram TV</a></li>
+      <li><a href="https://www.instagram.com/tv/CYKrH2WgjB3/?igsh=ejNkeDNuaGJ0dW95" target="_blank" rel="noopener noreferrer">Instagram TV</a></li>
+      <li><a href="https://www.instagram.com/reel/C5Qqw8rsk1X/?igsh=NHo1Zno1cjlhY2ll" target="_blank" rel="noopener noreferrer">Instagram Reel</a></li>
+      <li><a href="https://www.instagram.com/p/DBOdyejt88D/?img_index=1&igsh=MXR0OXNjemJlaHJ6aQ==" target="_blank" rel="noopener noreferrer">Instagram Post</a></li>
+    </ul>
+  </div>
+
+  <!-- SIK SORULAN SORULAR (ESKİ KISIM KORUNDU) -->
+  <div class="section">
+    <h2>Sık Sorulan Sorular</h2>
+
+    <h3>Kabak kemane sanatçısı kimdir?</h3>
     <p>
-      <strong>Yusuf Emre Yalçın</strong>, <strong>2005</strong> yılında Antalya’da doğan genç bir
-      <strong>kabak kemane ve ıklık sanatçısıdır</strong>. Küçük yaşlardan itibaren müziğe ve özellikle Türk halk
-      ezgilerine ilgi duymaya başlamıştır. Kabak kemane ile sahne tecrübesini geliştirmekte, aynı zamanda ıklık
-      performanslarıyla da dikkat çekmektedir.
+      Kabak kemane sanatçısı, kabak kemaneyi icra eden müzisyendir.
+      Yusuf Emre Yalçın Antalya doğumlu genç bir kabak kemane sanatçısıdır.
     </p>
 
-    <h3>Kısa Özet</h3>
+    <h3>Iklık sanatçısı kimdir?</h3>
+    <p>
+      Iklık sanatçısı, Anadolu’da kullanılan yaylı halk çalgılarından biri olan <strong>ıklık</strong> enstrümanını icra eden müzisyendir.
+      Yusuf Emre Yalçın kabak kemanenin yanında ıklık yorumlarıyla da dikkat çekmektedir.
+    </p>
+  </div>
+
+  <!-- SANATÇI KARTLARI (ESKİ KISIM KORUNDU) -->
+  <div class="section">
+    <h2>Kabak Kemane ve Iklık Sanatçı Kartları</h2>
+    <p>
+      Aşağıdaki kartlar iki ana başlığı özetler:
+      <strong>“Iklık sanatçısı”</strong> ve <strong>“Genç kabak kemane sanatçısı”</strong>.
+    </p>
+
+    <div class="card-grid">
+
+      <div class="artist-card">
+        <h3>Iklık Sanatçısı – Yusuf Emre Yalçın</h3>
+        <div class="subtitle">Türkiye’de sahnede ıklık çalan az sayıdaki isimden biri</div>
+        <p>
+          Yusuf Emre, ıklık ile uzun havalar, ağıtlar ve modern düzenlemeler icra ederek enstrümanın sesini yeni nesil dinleyicilerle buluşturmaktadır.
+        </p>
+        <div class="tag-list">
+          <span class="tag">Iklık sanatçısı</span>
+          <span class="tag">Iklık çalgısı</span>
+          <span class="tag">Iklık icracısı</span>
+        </div>
+        <a href="#iklik-calgisi">Iklık çalgısı bölümünü incele →</a>
+      </div>
+
+      <div class="artist-card">
+        <h3>Genç Kabak Kemane Sanatçısı – Yusuf Emre Yalçın</h3>
+        <div class="subtitle">Teke Yöresi geleneğini modern sahnelere taşıyan genç isim</div>
+        <p>
+          Yusuf Emre Yalçın, sosyal medya performansları ve sahne deneyimleriyle genç kabak kemane sanatçıları arasında dikkat çeken bir konuma gelmektedir.
+        </p>
+        <div class="tag-list">
+          <span class="tag">Kabak kemane sanatçısı</span>
+          <span class="tag">Genç icracı</span>
+          <span class="tag">Teke Yöresi</span>
+        </div>
+        <a href="#kabak-kemane-rehber">Kabak kemane rehberini incele →</a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- IKLIK ÇALGISI VE TARİHÇESİ (ESKİ KISIM KORUNDU) -->
+  <div class="section" id="iklik-calgisi">
+    <h2>Iklık Çalgısı ve Tarihçesi</h2>
+
+    <div class="iklik-photo">
+      <img src="file_00000000f76c720eaee9a8c5345955c0.png"
+           alt="Iklık çalgısı çalan genç ıklık sanatçısı Yusuf Emre Yalçın"
+           loading="lazy" />
+      <img src="IMG_20251201_004321.jpg"
+           alt="Iklık çalgısı ile genç müzisyen Yusuf Emre Yalçın ham fotoğraf"
+           loading="lazy" />
+    </div>
+
+    <p>
+      <strong>Iklık</strong>, Anadolu’da kullanılan, yayla çalınan eski bir yaylı halk çalgısıdır.
+      İnsan sesine yakın, içli ve derin bir tınıya sahiptir.
+    </p>
+
+    <h3>Iklık Performansları</h3>
+
+    <div class="video-card">
+      <h3>Iklık ve Kabak Kemane – Performans</h3>
+      <a href="https://www.youtube.com/watch?v=yXQkpkZmDRc" target="_blank" rel="noopener noreferrer">YouTube’da aç</a>
+      <iframe src="https://www.youtube.com/embed/yXQkpkZmDRc" title="Iklık Performans" loading="lazy" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-card">
+      <h3>Iklık Performansı</h3>
+      <a href="https://www.youtube.com/watch?v=pU0SXD51jUs" target="_blank" rel="noopener noreferrer">YouTube’da aç</a>
+      <iframe src="https://www.youtube.com/embed/pU0SXD51jUs" title="Iklık Performans" loading="lazy" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-card">
+      <h3>Iklık Canlı Kayıt</h3>
+      <a href="https://www.youtube.com/watch?v=a4909huyVtQ" target="_blank" rel="noopener noreferrer">YouTube’da aç</a>
+      <iframe src="https://www.youtube.com/embed/a4909huyVtQ" title="Iklık Canlı Kayıt" loading="lazy" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-card">
+      <h3>Iklık Duygulu Performans</h3>
+      <a href="https://www.youtube.com/watch?v=B0F3PMJiAd0" target="_blank" rel="noopener noreferrer">YouTube’da aç</a>
+      <iframe src="https://www.youtube.com/embed/B0F3PMJiAd0" title="Iklık Duygulu Performans" loading="lazy" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <!-- KABAK KEMANE REHBERİ (ESKİ KISIM KORUNDU) -->
+  <div class="section" id="kabak-kemane-rehber">
+    <h2>Kabak Kemane Rehberi</h2>
+    <p>
+      Bu bölümde kabak kemane hakkında sık sorulan konular tek yerde toplandı:
+      <strong>kabak kemane nedir, tarihçesi, nasıl çalınır, akort, fiyat/ekipman ve başlangıç eğitimi.</strong>
+    </p>
+
+    <h3>1. Kabak Kemane Nedir?</h3>
+    <p>
+      Kabak kemane, özellikle <strong>Teke Yöresi</strong> ile özdeşleşmiş, yayla çalınan bir
+      <strong>Türk halk müziği çalgısıdır</strong>.
+    </p>
+
+    <h3>2. Tarihçe ve Köken</h3>
+    <p>
+      Kabak kemane Anadolu’da yüzyıllardır kullanılan yaylı halk çalgılarından biridir.
+    </p>
+
+    <h3>3. Kabak Kemane Nasıl Çalınır?</h3>
+    <p>
+      Sağ el yayla ses üretirken, sol el parmakları perde yerlerine basarak farklı sesleri oluşturur.
+    </p>
     <ul>
-      <li>2005 doğumlu, Antalya’da yaşıyor.</li>
-      <li>Kabak kemane ve ıklık çalgısıyla düzenli performanslar paylaşıyor.</li>
-      <li>TRT / radyo / konser ve basın bağlantıları “Basında” bölümünde toplanmıştır.</li>
-      <li>Sosyal medya üzerinden dinleyicileriyle buluşuyor.</li>
+      <li>Doğru duruş ve rahat tutuş</li>
+      <li>Yay kontrolü</li>
+      <li>Yavaş tempoda egzersiz</li>
     </ul>
 
-    <div class="highlight-box">
-      “Kabak kemane ve ıklık çalgılarını yalnızca geçmişin mirası olarak değil,
-      günümüz sahnelerinde de yaşatılması gereken değerler olarak görüyor.”
+    <div class="note">
+      En hızlı gelişim: kısa ama <strong>her gün</strong> yapılan düzenli çalışma.
     </div>
+
+    <h3>4. Kabak Kemane Akortu</h3>
+    <p>Akort düzeni yöreye göre değişebilir. Yeni başlayanlar için akort cihazı ile tel tel ayar önerilir.</p>
+
+    <h3>5. Fiyatlar ve Ekipman</h3>
+    <p>Fiyat; malzeme, usta işçiliği ve ses kalitesine göre değişir. Önemli olan temiz ses ve akort tutmasıdır.</p>
+
+    <h3>6. Başlangıç Eğitimi</h3>
+    <ul>
+      <li>Günde 10–20 dakika uzun yay çalışması</li>
+      <li>Usta icralarını dinlemek</li>
+      <li>Temel hataları erken düzeltmek</li>
+    </ul>
+  </div>
+
+  <!-- HABER / BİYOGRAFİ YAZISI (ESKİ KISIM KORUNDU) -->
+  <div class="section" id="haber-biyografi">
+    <h2>Haber & Biyografi: Genç Kabak Kemane ve Iklık Sanatçısı Yusuf Emre Yalçın</h2>
+    <div class="meta-small">Antalya • Genç Kabak Kemane & Iklık Sanatçısı</div>
+
+    <p>
+      <strong>Yusuf Emre Yalçın</strong>, 2005 yılında Antalya’da doğan genç bir
+      <strong>kabak kemane ve ıklık sanatçısıdır</strong>.
+    </p>
+
+    <p>
+      Kabak kemanenin yanı sıra Anadolu’nun eski yaylı halk çalgılarından biri olan <strong>ıklık</strong> enstrümanına da ilgi duymaktadır.
+      Performansları sosyal medya ve dijital platformlarda binlerce kişiye ulaşmaktadır.
+    </p>
+
+    <div class="highlight-box">
+      “Yusuf Emre Yalçın, kabak kemane ve ıklık çalgılarını yalnızca geçmişin bir mirası olarak değil,
+      geleceğin sahnelerinde de yer bulacak çağdaş enstrümanlar olarak görmektedir.”
+    </div>
+  </div>
+
+  <!-- SOSYAL MEDYA TANITIM METİNLERİ (ESKİ KISIM KORUNDU) -->
+  <div class="section" id="sosyal-bio">
+    <h2>Sosyal Medya Tanıtım Metinleri (Kopyala–Yapıştır)</h2>
+
+    <h3>YouTube Kanal Açıklaması</h3>
+    <p>
+      Yusuf Emre Yalçın, Antalya doğumlu genç bir kabak kemane ve ıklık sanatçısıdır. Bu kanalda kabak kemane ve ıklık ile canlı performanslar, kısa videolar ve yeni projeler bulabilirsiniz.
+    </p>
+
+    <h3>Instagram Biyografi Önerisi</h3>
+    <p>
+      🎻 Kabak Kemane & Iklık Sanatçısı<br>
+      📍 Antalya / Türkiye<br>
+      🎥 Reels: canlı performanslar & kısa videolar<br>
+      ✉ İş birlikleri için DM
+    </p>
+
+    <h3>TikTok Biyografi Önerisi</h3>
+    <p>
+      🎻 Genç kabak kemane & ıklık sanatçısı<br>
+      🎶 Türk halk müziği & modern yorumlar<br>
+      📍 Antalya<br>
+      👉 Takip et 🎵
+    </p>
   </div>
 
   <footer>
